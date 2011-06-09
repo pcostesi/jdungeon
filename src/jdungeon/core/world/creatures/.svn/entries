@@ -1,0 +1,56 @@
+10
+
+dir
+0
+https://subversion.assembla.com/svn/tpe-poo/src/jdungeon/core/world/creatures
+https://subversion.assembla.com/svn/tpe-poo
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+feae9409-f8af-4b84-bc91-e091c990f58d
+
+Dragon.java
+file
+
+
+
+add
+
+Golem.java
+file
+
+
+
+add
+
+Monster.java
+file
+
+
+
+add
+
+Snake.java
+file
+
+
+
+add
+
