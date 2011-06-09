@@ -26,6 +26,7 @@ public class Game extends JFrame implements MapObserver, GUI {
 	DataPanel panel;
 	JPanel listener;
 	World w = null;
+	World clone = null;
 	Menu menuData;
 	private BasicImages basicImag;
 
@@ -82,6 +83,7 @@ public class Game extends JFrame implements MapObserver, GUI {
 			w.subscribe(this);
 			w.getBoss();
 			w.getPlayer();
+			clone = (World) w.clone();
 		} catch (Exception e) {
 			e.printStackTrace();
 			JOptionPane.showMessageDialog(this, "Error al parsear mapa");
@@ -121,14 +123,16 @@ public class Game extends JFrame implements MapObserver, GUI {
 
 	@Override
 	public void restart() {
+		endMap();
 		try {
-			w = (World) w.clone();
+			w = (World) clone.clone();
 			w.syncEvent();
 		} catch (CloneNotSupportedException e) {
 			JOptionPane.showMessageDialog(this,
 					"No se ha podido reiniciar el juego");
 			return;
 		}
+		startGame();
 	}
 
 	@Override
@@ -174,7 +178,7 @@ public class Game extends JFrame implements MapObserver, GUI {
 			endMap();
 		}
 		menuData.addOptions();
-		map = new MapDrawer(basicImag, this);
+		map = new MapDrawer(basicImag, this, w.getX(), w.getY());
 		add(map.GetGP());
 		panel = new DataPanel(w);
 		add(panel.getPanel(), BorderLayout.EAST);

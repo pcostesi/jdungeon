@@ -22,9 +22,9 @@ public class MapDrawer{
 	private GamePanel gp;
 	GUI event;
 
-	public MapDrawer(BasicImages images, GUI event) {
+	public MapDrawer(BasicImages images, GUI event, int x, int y) {
 		this.basicImag = images;
-		this.gp = new GamePanel(10, 10, 30, new BaseGamePanelListener(), Color.BLACK);
+		this.gp = new GamePanel(x, y, 30, new BaseGamePanelListener(), Color.BLACK);
 		this.event = event;
 	}
 	
