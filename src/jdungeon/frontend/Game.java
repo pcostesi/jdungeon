@@ -166,7 +166,6 @@ public class Game extends JFrame implements MapObserver, GUI {
 		setTitle("jDungeon");
 		setLayout(new BorderLayout());
 		setSize(500, 500);
-		setLocationRelativeTo(getRootPane()); 
 		setResizable(false);
 		Set<String> names = null;
 		try {
@@ -191,10 +190,8 @@ public class Game extends JFrame implements MapObserver, GUI {
 		panel = new DataPanel(w);
 		add(panel.getPanel(), BorderLayout.EAST);
 		panel.event();
-		System.out.println(w.getX());
 		setSize(w.getX()*30+120, w.getY()*30+45);
 		w.syncEvent();
-		setLocationRelativeTo(getRootPane()); 
 	}
 
 	private void startListener() {
