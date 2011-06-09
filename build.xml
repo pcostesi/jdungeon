@@ -1,0 +1,44 @@
+<project name="Example" default="dist" basedir=".">
+
+	<!-- Compila el proyecto, deja los archivos class en el directorio bin -->
+	<target name="compile">
+		<mkdir dir="bin" />
+		<javac srcdir="src" includeAntRuntime="false" destdir="bin" classpath="lib/junit-4.7.jar" source="1.6" />
+	</target>
+
+	<!-- Crea la documentacion en formato Javadoc, en el directorio doc. -->
+	<target name="doc" depends="compile">
+		<javadoc sourcepath="src" destdir="doc" classpath="lib/junit-4.7.jar" />
+	</target>
+
+	<!-- Ejecuta los tests. -->
+	<target name="tests" depends="compile">
+		<junit>
+			<formatter type="brief" usefile="false" />
+			<classpath path="bin;lib/junit-4.7.jar" />
+
+			<test name="jdungeon.tests.testParser" />
+		</junit>
+	</target>
+
+	<!-- Crea el jar ejecutable con todo el proyecto compilado. -->
+	<target name="dist" depends="compile, doc, tests">
+		<copy todir="bin/resources">
+			<fileset dir="resources" />
+		</copy>
+		<jar destfile="TPE.jar" basedir="bin">
+			<manifest>
+				<attribute name="Main-Class" value="jdungeon.frontend.Main" />
+			</manifest>
+		</jar>
+	</target>
+
+	<!-- Borra todos los archivos generados luego de compilar. -->
+	<target name="clean">
+		<delete dir="bin" />
+		<delete dir="doc" />
+		<delete file="TPE.jar" />
+	</target>
+
+</project>
+
