@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classjdungeon_1_1frontend_1_1_map_drawer.html#a1f2d0d91cb4b24de96fe54059d949409" title="jdungeon.frontend.MapDrawer.GetGP" alt="" coords="276,5,516,35"/>
+<area shape="rect" id="node5" href="$classjdungeon_1_1frontend_1_1_data_panel.html#a5faa11da3dd56e5f7bda7332dbca27e8" title="jdungeon.frontend.DataPanel.getPanel" alt="" coords="273,59,519,88"/>
+<area shape="rect" id="node7" href="$classjdungeon_1_1frontend_1_1_menu.html#a60162c0b7ef84d0c069adff1f5462997" title="jdungeon.frontend.Menu.removeOptions" alt="" coords="269,112,523,141"/>
+</map>

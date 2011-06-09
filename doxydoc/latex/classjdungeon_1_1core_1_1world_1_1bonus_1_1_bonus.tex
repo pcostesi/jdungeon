@@ -1,0 +1,222 @@
+\hypertarget{classjdungeon_1_1core_1_1world_1_1bonus_1_1_bonus}{
+\section{jdungeon.core.world.bonus.Bonus Class Reference}
+\label{classjdungeon_1_1core_1_1world_1_1bonus_1_1_bonus}\index{jdungeon::core::world::bonus::Bonus@{jdungeon::core::world::bonus::Bonus}}
+}
+
+
+Inheritance diagram for jdungeon.core.world.bonus.Bonus:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1bonus_1_1_bonus__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for jdungeon.core.world.bonus.Bonus:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=600pt]{classjdungeon_1_1core_1_1world_1_1bonus_1_1_bonus__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjdungeon_1_1core_1_1world_1_1bonus_1_1_bonus_a95961ff59a30d0186f90c13211965a05}{Bonus} (int level)
+\item 
+boolean \hyperlink{classjdungeon_1_1core_1_1world_1_1bonus_1_1_bonus_a9684d0e023504c4643c8776d0592a27e}{hitBy} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} e)
+\item 
+void \hyperlink{classjdungeon_1_1core_1_1world_1_1bonus_1_1_bonus_a08c3d899fc2086987da644d425e7edef}{near} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} e)
+\item 
+int \hyperlink{classjdungeon_1_1core_1_1world_1_1bonus_1_1_bonus_a985375c29c8c6ff98721337f6587a691}{getLevel} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+abstract void \hyperlink{classjdungeon_1_1core_1_1world_1_1bonus_1_1_bonus_a169b5e5d01c584e378c9f043b9bba196}{buff} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_player}{Player} p)
+\item 
+abstract void \hyperlink{classjdungeon_1_1core_1_1world_1_1bonus_1_1_bonus_a81e5b9af221859113c1378a28368f382}{areaBuff} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_player}{Player} p)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The Class \hyperlink{classjdungeon_1_1core_1_1world_1_1bonus_1_1_bonus}{Bonus}. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjdungeon_1_1core_1_1world_1_1bonus_1_1_bonus_a95961ff59a30d0186f90c13211965a05}{
+\index{jdungeon::core::world::bonus::Bonus@{jdungeon::core::world::bonus::Bonus}!Bonus@{Bonus}}
+\index{Bonus@{Bonus}!jdungeon::core::world::bonus::Bonus@{jdungeon::core::world::bonus::Bonus}}
+\subsubsection[{Bonus}]{\setlength{\rightskip}{0pt plus 5cm}jdungeon.core.world.bonus.Bonus.Bonus (
+\begin{DoxyParamCaption}
+\item[{int}]{level}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1bonus_1_1_bonus_a95961ff59a30d0186f90c13211965a05}
+Instantiates a new bonus.
+
+
+\begin{DoxyParams}{Parameters}
+{\em level} & the level \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjdungeon_1_1core_1_1world_1_1bonus_1_1_bonus_a81e5b9af221859113c1378a28368f382}{
+\index{jdungeon::core::world::bonus::Bonus@{jdungeon::core::world::bonus::Bonus}!areaBuff@{areaBuff}}
+\index{areaBuff@{areaBuff}!jdungeon::core::world::bonus::Bonus@{jdungeon::core::world::bonus::Bonus}}
+\subsubsection[{areaBuff}]{\setlength{\rightskip}{0pt plus 5cm}abstract void jdungeon.core.world.bonus.Bonus.areaBuff (
+\begin{DoxyParamCaption}
+\item[{{\bf Player}}]{p}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected, pure virtual\mbox{]}}}}
+\label{classjdungeon_1_1core_1_1world_1_1bonus_1_1_bonus_a81e5b9af221859113c1378a28368f382}
+Area buff (called when a player gets near).
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & the point \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \hyperlink{classjdungeon_1_1core_1_1world_1_1bonus_1_1_explorer_bonus_a9167c77fd3e0de84f72ad10403b2246a}{jdungeon.core.world.bonus.ExplorerBonus}, \hyperlink{classjdungeon_1_1core_1_1world_1_1bonus_1_1_health_bonus_ae00cd6eca1fa85358e2242c886f2c37c}{jdungeon.core.world.bonus.HealthBonus}, and \hyperlink{classjdungeon_1_1core_1_1world_1_1bonus_1_1_strength_bonus_acb2fc941a9195fca0783a325d88bc4a5}{jdungeon.core.world.bonus.StrengthBonus}.
+
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1bonus_1_1_bonus_a81e5b9af221859113c1378a28368f382_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1bonus_1_1_bonus_a169b5e5d01c584e378c9f043b9bba196}{
+\index{jdungeon::core::world::bonus::Bonus@{jdungeon::core::world::bonus::Bonus}!buff@{buff}}
+\index{buff@{buff}!jdungeon::core::world::bonus::Bonus@{jdungeon::core::world::bonus::Bonus}}
+\subsubsection[{buff}]{\setlength{\rightskip}{0pt plus 5cm}abstract void jdungeon.core.world.bonus.Bonus.buff (
+\begin{DoxyParamCaption}
+\item[{{\bf Player}}]{p}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected, pure virtual\mbox{]}}}}
+\label{classjdungeon_1_1core_1_1world_1_1bonus_1_1_bonus_a169b5e5d01c584e378c9f043b9bba196}
+Buff (when a player steps on this bonus).
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & the point \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \hyperlink{classjdungeon_1_1core_1_1world_1_1bonus_1_1_explorer_bonus_a16e467f092eeb045f790c90c9a21ebb1}{jdungeon.core.world.bonus.ExplorerBonus}, \hyperlink{classjdungeon_1_1core_1_1world_1_1bonus_1_1_health_bonus_ae951e5a939df28a8b3f1436c13e3953a}{jdungeon.core.world.bonus.HealthBonus}, and \hyperlink{classjdungeon_1_1core_1_1world_1_1bonus_1_1_strength_bonus_ad408870aee974a63a4cd9d802a523d35}{jdungeon.core.world.bonus.StrengthBonus}.
+
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1bonus_1_1_bonus_a169b5e5d01c584e378c9f043b9bba196_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1bonus_1_1_bonus_a985375c29c8c6ff98721337f6587a691}{
+\index{jdungeon::core::world::bonus::Bonus@{jdungeon::core::world::bonus::Bonus}!getLevel@{getLevel}}
+\index{getLevel@{getLevel}!jdungeon::core::world::bonus::Bonus@{jdungeon::core::world::bonus::Bonus}}
+\subsubsection[{getLevel}]{\setlength{\rightskip}{0pt plus 5cm}int jdungeon.core.world.bonus.Bonus.getLevel (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1bonus_1_1_bonus_a985375c29c8c6ff98721337f6587a691}
+Gets the level.
+
+\begin{DoxyReturn}{Returns}
+the level 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1bonus_1_1_bonus_a985375c29c8c6ff98721337f6587a691_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1bonus_1_1_bonus_a9684d0e023504c4643c8776d0592a27e}{
+\index{jdungeon::core::world::bonus::Bonus@{jdungeon::core::world::bonus::Bonus}!hitBy@{hitBy}}
+\index{hitBy@{hitBy}!jdungeon::core::world::bonus::Bonus@{jdungeon::core::world::bonus::Bonus}}
+\subsubsection[{hitBy}]{\setlength{\rightskip}{0pt plus 5cm}boolean jdungeon.core.world.bonus.Bonus.hitBy (
+\begin{DoxyParamCaption}
+\item[{{\bf Entity}}]{e}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1bonus_1_1_bonus_a9684d0e023504c4643c8776d0592a27e}
+Buffs the \hyperlink{classjdungeon_1_1core_1_1world_1_1_player}{Player}
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity_ab1416ea34d958af08b0712eff91c7982}{jdungeon.core.world.Entity.hitBy}(\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{jdungeon.core.world.Entity}) 
+\end{DoxySeeAlso}
+
+
+Reimplemented from \hyperlink{classjdungeon_1_1core_1_1world_1_1_entity_ab1416ea34d958af08b0712eff91c7982}{jdungeon.core.world.Entity}.
+
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1bonus_1_1_bonus_a9684d0e023504c4643c8776d0592a27e_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1bonus_1_1_bonus_a08c3d899fc2086987da644d425e7edef}{
+\index{jdungeon::core::world::bonus::Bonus@{jdungeon::core::world::bonus::Bonus}!near@{near}}
+\index{near@{near}!jdungeon::core::world::bonus::Bonus@{jdungeon::core::world::bonus::Bonus}}
+\subsubsection[{near}]{\setlength{\rightskip}{0pt plus 5cm}void jdungeon.core.world.bonus.Bonus.near (
+\begin{DoxyParamCaption}
+\item[{{\bf Entity}}]{e}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1bonus_1_1_bonus_a08c3d899fc2086987da644d425e7edef}
+Buffs the player near this bonus
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity_ad2961935a2eef28553a1d65f7653280c}{jdungeon.core.world.Entity.near}(\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{jdungeon.core.world.Entity}) 
+\end{DoxySeeAlso}
+
+
+Reimplemented from \hyperlink{classjdungeon_1_1core_1_1world_1_1_entity_ad2961935a2eef28553a1d65f7653280c}{jdungeon.core.world.Entity}.
+
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1bonus_1_1_bonus_a08c3d899fc2086987da644d425e7edef_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/jdungeon/core/world/bonus/\hyperlink{_bonus_8java}{Bonus.java}\end{DoxyCompactItemize}

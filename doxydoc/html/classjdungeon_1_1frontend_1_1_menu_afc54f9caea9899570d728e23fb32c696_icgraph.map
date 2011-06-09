@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classjdungeon_1_1frontend_1_1_game.html#a36a352daddeb9a6823bb1e3565c94bd8" title="jdungeon.frontend.Game.load" alt="" coords="583,5,775,35"/>
+<area shape="rect" id="node5" href="$classjdungeon_1_1frontend_1_1_game.html#a9163c3e392b84832fae53080a32cc7a7" title="jdungeon.frontend.Game.startGame" alt="" coords="285,59,515,88"/>
+<area shape="rect" id="node8" href="$classjdungeon_1_1frontend_1_1_game.html#a995a4352abccfd549e5002f29c8746df" title="jdungeon.frontend.Game.NewGame" alt="" coords="564,59,793,88"/>
+<area shape="rect" id="node10" href="$classjdungeon_1_1frontend_1_1_game.html#ad9023872333040ed40b4bb85e4ab41bd" title="jdungeon.frontend.Game.restart" alt="" coords="576,112,781,141"/>
+</map>

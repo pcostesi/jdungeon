@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$classjdungeon_1_1core_1_1world_1_1bonus_1_1_bonus.html" title="{jdungeon.core.world.bonus.Bonus\n|&#45; level\l&#45; serialVersionUID\l|+ Bonus()\l+ hitBy()\l+ near()\l+ getLevel()\l# buff()\l# areaBuff()\l}" alt="" coords="29,376,248,565"/>
+<area shape="rect" id="node4" href="$classjdungeon_1_1core_1_1world_1_1_entity.html" title="{jdungeon.core.world.Entity\n|&#45; w\l&#45; serialVersionUID\l|+ setWorld()\l+ getWorld()\l+ hitBy()\l+ hitsTo()\l+ near()\l+ clone()\l}" alt="" coords="51,139,227,328"/>
+</map>

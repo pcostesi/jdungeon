@@ -1,0 +1,693 @@
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_vulnerable}{
+\section{jdungeon.core.world.Vulnerable Class Reference}
+\label{classjdungeon_1_1core_1_1world_1_1_vulnerable}\index{jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}}
+}
+
+
+Inheritance diagram for jdungeon.core.world.Vulnerable:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=600pt]{classjdungeon_1_1core_1_1world_1_1_vulnerable__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for jdungeon.core.world.Vulnerable:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=600pt]{classjdungeon_1_1core_1_1world_1_1_vulnerable__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable_a02b65cf3adda7a77a0d0455943f6d879}{Vulnerable} (int level, int strength, int health)
+\item 
+int \hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable_a5eff736ac3c1dc77404368fb0e069320}{getLevel} ()
+\item 
+int \hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable_adb7c5a193d5f727f17c0c137e2ff3fa0}{getHP} ()
+\item 
+boolean \hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable_a51cba2942f2b57bdb39b4f69ffd16241}{hitBy} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} e)
+\item 
+boolean \hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable_a622ad6fd715b134f6508e000eb7b4785}{hitsTo} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} e)
+\item 
+int \hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable_a617c57277ccac3409bc686f94fa92ea5}{heal} (int healthDelta)
+\item 
+int \hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable_a5a5fd985229f2087e93869df0abc4f16}{hurtBy} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable}{Vulnerable} v)
+\item 
+int \hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable_adf9a368d3db536032e75382abdd373e4}{getStrength} ()
+\item 
+int \hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable_a23e72ca7d75449518977e497da993823}{getRawStrength} ()
+\item 
+int \hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable_affe3e78949e4939e0ac7988a13d81b67}{getStrengthBonus} ()
+\item 
+int \hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable_ac81a68403f86fd07aea32f78d4c5db70}{setStrength} (int delta)
+\item 
+int \hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable_aff31e13ced994a738cf026eb499d5b67}{setStrengthBonus} (int i)
+\item 
+int \hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable_a3b21f2ca2b09e59b6eaee07a970c6dfb}{setMaxHealth} (int h)
+\item 
+int \hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable_ad6e18cebbf70089f58a4b68075a99133}{getMaxHealth} ()
+\item 
+int \hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable_afc328eb5362b81efb12dfedc106455fb}{setLevel} (int level)
+\item 
+abstract void \hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable_a96843ba40982d3a7532783011c85f91e}{awardExperience} (int exp)
+\item 
+abstract int \hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable_a8ffd0fbd1f9eb791538660975aaf5a45}{getExperience} ()
+\item 
+void \hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable_a377cb39871aae1afed1f2fee4af6e181}{subscribe} (\hyperlink{interfacejdungeon_1_1core_1_1world_1_1_vulnerable_observer}{VulnerableObserver} observer)
+\item 
+void \hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable_a0bc2464673cb5d5af7e95a3e14043a7f}{unsubscribe} (\hyperlink{interfacejdungeon_1_1core_1_1world_1_1_vulnerable_observer}{VulnerableObserver} observer)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable_a16f60387f198bbe26aa12c0925fdc2d4}{die} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The Class \hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable}{Vulnerable}. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_vulnerable_a02b65cf3adda7a77a0d0455943f6d879}{
+\index{jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}!Vulnerable@{Vulnerable}}
+\index{Vulnerable@{Vulnerable}!jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}}
+\subsubsection[{Vulnerable}]{\setlength{\rightskip}{0pt plus 5cm}jdungeon.core.world.Vulnerable.Vulnerable (
+\begin{DoxyParamCaption}
+\item[{int}]{level, }
+\item[{int}]{strength, }
+\item[{int}]{health}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_vulnerable_a02b65cf3adda7a77a0d0455943f6d879}
+Instantiates a new vulnerable.
+
+
+\begin{DoxyParams}{Parameters}
+{\em level} & the level \\
+\hline
+{\em strength} & the strength \\
+\hline
+{\em health} & the health \\
+\hline
+\end{DoxyParams}
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_vulnerable_a02b65cf3adda7a77a0d0455943f6d879_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_vulnerable_a96843ba40982d3a7532783011c85f91e}{
+\index{jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}!awardExperience@{awardExperience}}
+\index{awardExperience@{awardExperience}!jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}}
+\subsubsection[{awardExperience}]{\setlength{\rightskip}{0pt plus 5cm}abstract void jdungeon.core.world.Vulnerable.awardExperience (
+\begin{DoxyParamCaption}
+\item[{int}]{exp}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{classjdungeon_1_1core_1_1world_1_1_vulnerable_a96843ba40982d3a7532783011c85f91e}
+Award experience.
+
+
+\begin{DoxyParams}{Parameters}
+{\em exp} & the experience \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \hyperlink{classjdungeon_1_1core_1_1world_1_1creatures_1_1_monster_a654963d8e5f5603c8085aaaa93a301fa}{jdungeon.core.world.creatures.Monster}, and \hyperlink{classjdungeon_1_1core_1_1world_1_1_player_ae4b31c3cf3ce1e12087737a01e7953c7}{jdungeon.core.world.Player}.
+
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_vulnerable_a96843ba40982d3a7532783011c85f91e_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_vulnerable_a16f60387f198bbe26aa12c0925fdc2d4}{
+\index{jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}!die@{die}}
+\index{die@{die}!jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}}
+\subsubsection[{die}]{\setlength{\rightskip}{0pt plus 5cm}void jdungeon.core.world.Vulnerable.die (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classjdungeon_1_1core_1_1world_1_1_vulnerable_a16f60387f198bbe26aa12c0925fdc2d4}
+Die. Like when real people die. How sad. That pretty much sums it up. 
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_vulnerable_a16f60387f198bbe26aa12c0925fdc2d4_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_vulnerable_a16f60387f198bbe26aa12c0925fdc2d4_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_vulnerable_a8ffd0fbd1f9eb791538660975aaf5a45}{
+\index{jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}!getExperience@{getExperience}}
+\index{getExperience@{getExperience}!jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}}
+\subsubsection[{getExperience}]{\setlength{\rightskip}{0pt plus 5cm}abstract int jdungeon.core.world.Vulnerable.getExperience (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{classjdungeon_1_1core_1_1world_1_1_vulnerable_a8ffd0fbd1f9eb791538660975aaf5a45}
+Gets the experience.
+
+\begin{DoxyReturn}{Returns}
+the experience 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classjdungeon_1_1core_1_1world_1_1creatures_1_1_monster_a2aef00775c480b7ec0afce784ab63ebd}{jdungeon.core.world.creatures.Monster}, and \hyperlink{classjdungeon_1_1core_1_1world_1_1_player_a072bec9b1f80e833e1316e8d9490511a}{jdungeon.core.world.Player}.
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_vulnerable_adb7c5a193d5f727f17c0c137e2ff3fa0}{
+\index{jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}!getHP@{getHP}}
+\index{getHP@{getHP}!jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}}
+\subsubsection[{getHP}]{\setlength{\rightskip}{0pt plus 5cm}int jdungeon.core.world.Vulnerable.getHP (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_vulnerable_adb7c5a193d5f727f17c0c137e2ff3fa0}
+Gets the HP.
+
+\begin{DoxyReturn}{Returns}
+the HP 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_vulnerable_adb7c5a193d5f727f17c0c137e2ff3fa0_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_vulnerable_a5eff736ac3c1dc77404368fb0e069320}{
+\index{jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}!getLevel@{getLevel}}
+\index{getLevel@{getLevel}!jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}}
+\subsubsection[{getLevel}]{\setlength{\rightskip}{0pt plus 5cm}int jdungeon.core.world.Vulnerable.getLevel (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_vulnerable_a5eff736ac3c1dc77404368fb0e069320}
+Gets the level.
+
+\begin{DoxyReturn}{Returns}
+the level 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_vulnerable_a5eff736ac3c1dc77404368fb0e069320_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_vulnerable_ad6e18cebbf70089f58a4b68075a99133}{
+\index{jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}!getMaxHealth@{getMaxHealth}}
+\index{getMaxHealth@{getMaxHealth}!jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}}
+\subsubsection[{getMaxHealth}]{\setlength{\rightskip}{0pt plus 5cm}int jdungeon.core.world.Vulnerable.getMaxHealth (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_vulnerable_ad6e18cebbf70089f58a4b68075a99133}
+Gets the max health.
+
+\begin{DoxyReturn}{Returns}
+the max health 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_vulnerable_ad6e18cebbf70089f58a4b68075a99133_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_vulnerable_a23e72ca7d75449518977e497da993823}{
+\index{jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}!getRawStrength@{getRawStrength}}
+\index{getRawStrength@{getRawStrength}!jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}}
+\subsubsection[{getRawStrength}]{\setlength{\rightskip}{0pt plus 5cm}int jdungeon.core.world.Vulnerable.getRawStrength (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_vulnerable_a23e72ca7d75449518977e497da993823}
+Gets the raw strength.
+
+\begin{DoxyReturn}{Returns}
+the raw strength 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_vulnerable_a23e72ca7d75449518977e497da993823_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_vulnerable_adf9a368d3db536032e75382abdd373e4}{
+\index{jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}!getStrength@{getStrength}}
+\index{getStrength@{getStrength}!jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}}
+\subsubsection[{getStrength}]{\setlength{\rightskip}{0pt plus 5cm}int jdungeon.core.world.Vulnerable.getStrength (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_vulnerable_adf9a368d3db536032e75382abdd373e4}
+Gets the strength (bonus + raw).
+
+\begin{DoxyReturn}{Returns}
+the strength 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_vulnerable_adf9a368d3db536032e75382abdd373e4_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_vulnerable_adf9a368d3db536032e75382abdd373e4_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_vulnerable_affe3e78949e4939e0ac7988a13d81b67}{
+\index{jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}!getStrengthBonus@{getStrengthBonus}}
+\index{getStrengthBonus@{getStrengthBonus}!jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}}
+\subsubsection[{getStrengthBonus}]{\setlength{\rightskip}{0pt plus 5cm}int jdungeon.core.world.Vulnerable.getStrengthBonus (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_vulnerable_affe3e78949e4939e0ac7988a13d81b67}
+Gets the strength bonus.
+
+\begin{DoxyReturn}{Returns}
+the strength bonus 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_vulnerable_affe3e78949e4939e0ac7988a13d81b67_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_vulnerable_a617c57277ccac3409bc686f94fa92ea5}{
+\index{jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}!heal@{heal}}
+\index{heal@{heal}!jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}}
+\subsubsection[{heal}]{\setlength{\rightskip}{0pt plus 5cm}int jdungeon.core.world.Vulnerable.heal (
+\begin{DoxyParamCaption}
+\item[{int}]{healthDelta}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_vulnerable_a617c57277ccac3409bc686f94fa92ea5}
+Heal this entity.
+
+
+\begin{DoxyParams}{Parameters}
+{\em healthDelta} & the health delta \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the new health 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_vulnerable_a617c57277ccac3409bc686f94fa92ea5_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_vulnerable_a617c57277ccac3409bc686f94fa92ea5_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_vulnerable_a51cba2942f2b57bdb39b4f69ffd16241}{
+\index{jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}!hitBy@{hitBy}}
+\index{hitBy@{hitBy}!jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}}
+\subsubsection[{hitBy}]{\setlength{\rightskip}{0pt plus 5cm}boolean jdungeon.core.world.Vulnerable.hitBy (
+\begin{DoxyParamCaption}
+\item[{{\bf Entity}}]{e}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_vulnerable_a51cba2942f2b57bdb39b4f69ffd16241}
+Dispatches a hit to a \hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable}{Vulnerable} entity e.
+
+\begin{DoxyReturn}{Returns}
+false if both are \hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable}{Vulnerable}.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity_ab1416ea34d958af08b0712eff91c7982}{jdungeon.core.world.Entity.hitBy}(\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{jdungeon.core.world.Entity}) 
+\end{DoxySeeAlso}
+
+
+Reimplemented from \hyperlink{classjdungeon_1_1core_1_1world_1_1_entity_ab1416ea34d958af08b0712eff91c7982}{jdungeon.core.world.Entity}.
+
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_vulnerable_a51cba2942f2b57bdb39b4f69ffd16241_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_vulnerable_a622ad6fd715b134f6508e000eb7b4785}{
+\index{jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}!hitsTo@{hitsTo}}
+\index{hitsTo@{hitsTo}!jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}}
+\subsubsection[{hitsTo}]{\setlength{\rightskip}{0pt plus 5cm}boolean jdungeon.core.world.Vulnerable.hitsTo (
+\begin{DoxyParamCaption}
+\item[{{\bf Entity}}]{e}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_vulnerable_a622ad6fd715b134f6508e000eb7b4785}
+Dispatches the damage to this entity.
+
+\begin{DoxyReturn}{Returns}
+false if this entity is alive and the hitting entity is an instance of \hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable}{Vulnerable}
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity_ab3bfa26ddf39d9f3e2c69b8a33c8dd6a}{jdungeon.core.world.Entity.hitsTo}(\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{jdungeon.core.world.Entity}) 
+\end{DoxySeeAlso}
+
+
+Reimplemented from \hyperlink{classjdungeon_1_1core_1_1world_1_1_entity_ab3bfa26ddf39d9f3e2c69b8a33c8dd6a}{jdungeon.core.world.Entity}.
+
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_vulnerable_a622ad6fd715b134f6508e000eb7b4785_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_vulnerable_a5a5fd985229f2087e93869df0abc4f16}{
+\index{jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}!hurtBy@{hurtBy}}
+\index{hurtBy@{hurtBy}!jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}}
+\subsubsection[{hurtBy}]{\setlength{\rightskip}{0pt plus 5cm}int jdungeon.core.world.Vulnerable.hurtBy (
+\begin{DoxyParamCaption}
+\item[{{\bf Vulnerable}}]{v}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_vulnerable_a5a5fd985229f2087e93869df0abc4f16}
+Get hurt by a \hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable}{Vulnerable}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em v} & the vulnerable inflicting the damage \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the new health 
+\end{DoxyReturn}
+
+
+Reimplemented in \hyperlink{classjdungeon_1_1core_1_1world_1_1creatures_1_1_monster_ab0ffd2d1674b62183b41bcb378c34d44}{jdungeon.core.world.creatures.Monster}.
+
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_vulnerable_a5a5fd985229f2087e93869df0abc4f16_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_vulnerable_afc328eb5362b81efb12dfedc106455fb}{
+\index{jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}!setLevel@{setLevel}}
+\index{setLevel@{setLevel}!jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}}
+\subsubsection[{setLevel}]{\setlength{\rightskip}{0pt plus 5cm}int jdungeon.core.world.Vulnerable.setLevel (
+\begin{DoxyParamCaption}
+\item[{int}]{level}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_vulnerable_afc328eb5362b81efb12dfedc106455fb}
+Sets the level.
+
+
+\begin{DoxyParams}{Parameters}
+{\em level} & the level \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the level 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_vulnerable_afc328eb5362b81efb12dfedc106455fb_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_vulnerable_a3b21f2ca2b09e59b6eaee07a970c6dfb}{
+\index{jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}!setMaxHealth@{setMaxHealth}}
+\index{setMaxHealth@{setMaxHealth}!jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}}
+\subsubsection[{setMaxHealth}]{\setlength{\rightskip}{0pt plus 5cm}int jdungeon.core.world.Vulnerable.setMaxHealth (
+\begin{DoxyParamCaption}
+\item[{int}]{h}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_vulnerable_a3b21f2ca2b09e59b6eaee07a970c6dfb}
+Sets the max health.
+
+
+\begin{DoxyParams}{Parameters}
+{\em h} & the max health \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the current health 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_vulnerable_a3b21f2ca2b09e59b6eaee07a970c6dfb_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_vulnerable_a3b21f2ca2b09e59b6eaee07a970c6dfb_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_vulnerable_ac81a68403f86fd07aea32f78d4c5db70}{
+\index{jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}!setStrength@{setStrength}}
+\index{setStrength@{setStrength}!jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}}
+\subsubsection[{setStrength}]{\setlength{\rightskip}{0pt plus 5cm}int jdungeon.core.world.Vulnerable.setStrength (
+\begin{DoxyParamCaption}
+\item[{int}]{delta}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_vulnerable_ac81a68403f86fd07aea32f78d4c5db70}
+Sets the strength.
+
+
+\begin{DoxyParams}{Parameters}
+{\em delta} & the delta \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the strength 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_vulnerable_ac81a68403f86fd07aea32f78d4c5db70_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_vulnerable_aff31e13ced994a738cf026eb499d5b67}{
+\index{jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}!setStrengthBonus@{setStrengthBonus}}
+\index{setStrengthBonus@{setStrengthBonus}!jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}}
+\subsubsection[{setStrengthBonus}]{\setlength{\rightskip}{0pt plus 5cm}int jdungeon.core.world.Vulnerable.setStrengthBonus (
+\begin{DoxyParamCaption}
+\item[{int}]{i}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_vulnerable_aff31e13ced994a738cf026eb499d5b67}
+Sets the strength bonus.
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & the strength bonus points \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the total bonus points 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_vulnerable_aff31e13ced994a738cf026eb499d5b67_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_vulnerable_a377cb39871aae1afed1f2fee4af6e181}{
+\index{jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}!subscribe@{subscribe}}
+\index{subscribe@{subscribe}!jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}}
+\subsubsection[{subscribe}]{\setlength{\rightskip}{0pt plus 5cm}void jdungeon.core.world.Vulnerable.subscribe (
+\begin{DoxyParamCaption}
+\item[{{\bf VulnerableObserver}}]{observer}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_vulnerable_a377cb39871aae1afed1f2fee4af6e181}
+Subscribe to events, such as death.
+
+
+\begin{DoxyParams}{Parameters}
+{\em observer} & the observer \\
+\hline
+\end{DoxyParams}
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_vulnerable_a377cb39871aae1afed1f2fee4af6e181_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_vulnerable_a0bc2464673cb5d5af7e95a3e14043a7f}{
+\index{jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}!unsubscribe@{unsubscribe}}
+\index{unsubscribe@{unsubscribe}!jdungeon::core::world::Vulnerable@{jdungeon::core::world::Vulnerable}}
+\subsubsection[{unsubscribe}]{\setlength{\rightskip}{0pt plus 5cm}void jdungeon.core.world.Vulnerable.unsubscribe (
+\begin{DoxyParamCaption}
+\item[{{\bf VulnerableObserver}}]{observer}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_vulnerable_a0bc2464673cb5d5af7e95a3e14043a7f}
+Unsubscribe to events.
+
+
+\begin{DoxyParams}{Parameters}
+{\em observer} & the observer \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/jdungeon/core/world/\hyperlink{_vulnerable_8java}{Vulnerable.java}\end{DoxyCompactItemize}

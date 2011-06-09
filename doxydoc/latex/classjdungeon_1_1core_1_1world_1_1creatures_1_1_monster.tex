@@ -1,0 +1,140 @@
+\hypertarget{classjdungeon_1_1core_1_1world_1_1creatures_1_1_monster}{
+\section{jdungeon.core.world.creatures.Monster Class Reference}
+\label{classjdungeon_1_1core_1_1world_1_1creatures_1_1_monster}\index{jdungeon::core::world::creatures::Monster@{jdungeon::core::world::creatures::Monster}}
+}
+
+
+Inheritance diagram for jdungeon.core.world.creatures.Monster:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=600pt]{classjdungeon_1_1core_1_1world_1_1creatures_1_1_monster__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for jdungeon.core.world.creatures.Monster:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=600pt]{classjdungeon_1_1core_1_1world_1_1creatures_1_1_monster__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjdungeon_1_1core_1_1world_1_1creatures_1_1_monster_a1f972965f25a8242316ada2d2f3dafc1}{Monster} (int level, double f, double s)
+\item 
+void \hyperlink{classjdungeon_1_1core_1_1world_1_1creatures_1_1_monster_a654963d8e5f5603c8085aaaa93a301fa}{awardExperience} (int exp)
+\item 
+int \hyperlink{classjdungeon_1_1core_1_1world_1_1creatures_1_1_monster_a2aef00775c480b7ec0afce784ab63ebd}{getExperience} ()
+\item 
+int \hyperlink{classjdungeon_1_1core_1_1world_1_1creatures_1_1_monster_ab0ffd2d1674b62183b41bcb378c34d44}{hurtBy} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable}{Vulnerable} v)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The Class \hyperlink{classjdungeon_1_1core_1_1world_1_1creatures_1_1_monster}{Monster}. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjdungeon_1_1core_1_1world_1_1creatures_1_1_monster_a1f972965f25a8242316ada2d2f3dafc1}{
+\index{jdungeon::core::world::creatures::Monster@{jdungeon::core::world::creatures::Monster}!Monster@{Monster}}
+\index{Monster@{Monster}!jdungeon::core::world::creatures::Monster@{jdungeon::core::world::creatures::Monster}}
+\subsubsection[{Monster}]{\setlength{\rightskip}{0pt plus 5cm}jdungeon.core.world.creatures.Monster.Monster (
+\begin{DoxyParamCaption}
+\item[{int}]{level, }
+\item[{double}]{f, }
+\item[{double}]{s}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1creatures_1_1_monster_a1f972965f25a8242316ada2d2f3dafc1}
+Instantiates a new monster.
+
+
+\begin{DoxyParams}{Parameters}
+{\em level} & the level \\
+\hline
+{\em f} & the f \\
+\hline
+{\em s} & the s \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjdungeon_1_1core_1_1world_1_1creatures_1_1_monster_a654963d8e5f5603c8085aaaa93a301fa}{
+\index{jdungeon::core::world::creatures::Monster@{jdungeon::core::world::creatures::Monster}!awardExperience@{awardExperience}}
+\index{awardExperience@{awardExperience}!jdungeon::core::world::creatures::Monster@{jdungeon::core::world::creatures::Monster}}
+\subsubsection[{awardExperience}]{\setlength{\rightskip}{0pt plus 5cm}void jdungeon.core.world.creatures.Monster.awardExperience (
+\begin{DoxyParamCaption}
+\item[{int}]{exp}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classjdungeon_1_1core_1_1world_1_1creatures_1_1_monster_a654963d8e5f5603c8085aaaa93a301fa}
+Monsters have no experience. This does nothing.
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable_a96843ba40982d3a7532783011c85f91e}{jdungeon.core.world.Vulnerable.awardExperience(int)} 
+\end{DoxySeeAlso}
+
+
+Implements \hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable_a96843ba40982d3a7532783011c85f91e}{jdungeon.core.world.Vulnerable}.
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1creatures_1_1_monster_a2aef00775c480b7ec0afce784ab63ebd}{
+\index{jdungeon::core::world::creatures::Monster@{jdungeon::core::world::creatures::Monster}!getExperience@{getExperience}}
+\index{getExperience@{getExperience}!jdungeon::core::world::creatures::Monster@{jdungeon::core::world::creatures::Monster}}
+\subsubsection[{getExperience}]{\setlength{\rightskip}{0pt plus 5cm}int jdungeon.core.world.creatures.Monster.getExperience (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classjdungeon_1_1core_1_1world_1_1creatures_1_1_monster_a2aef00775c480b7ec0afce784ab63ebd}
+Monsters have no experience.
+
+\begin{DoxyReturn}{Returns}
+0 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable_a8ffd0fbd1f9eb791538660975aaf5a45}{jdungeon.core.world.Vulnerable.getExperience()} 
+\end{DoxySeeAlso}
+
+
+Implements \hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable_a8ffd0fbd1f9eb791538660975aaf5a45}{jdungeon.core.world.Vulnerable}.
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1creatures_1_1_monster_ab0ffd2d1674b62183b41bcb378c34d44}{
+\index{jdungeon::core::world::creatures::Monster@{jdungeon::core::world::creatures::Monster}!hurtBy@{hurtBy}}
+\index{hurtBy@{hurtBy}!jdungeon::core::world::creatures::Monster@{jdungeon::core::world::creatures::Monster}}
+\subsubsection[{hurtBy}]{\setlength{\rightskip}{0pt plus 5cm}int jdungeon.core.world.creatures.Monster.hurtBy (
+\begin{DoxyParamCaption}
+\item[{{\bf Vulnerable}}]{v}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1creatures_1_1_monster_ab0ffd2d1674b62183b41bcb378c34d44}
+This method awards experience to a vulnerable when killed.
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable_a5a5fd985229f2087e93869df0abc4f16}{jdungeon.core.world.Vulnerable.hurtBy}(\hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable}{jdungeon.core.world.Vulnerable}) 
+\end{DoxySeeAlso}
+
+
+Reimplemented from \hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable_a5a5fd985229f2087e93869df0abc4f16}{jdungeon.core.world.Vulnerable}.
+
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1creatures_1_1_monster_ab0ffd2d1674b62183b41bcb378c34d44_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/jdungeon/core/world/creatures/\hyperlink{_monster_8java}{Monster.java}\end{DoxyCompactItemize}

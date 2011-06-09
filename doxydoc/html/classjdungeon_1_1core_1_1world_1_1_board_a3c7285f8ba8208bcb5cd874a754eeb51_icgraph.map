@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a1597e074e16a601ed61c22a49fab6b69" title="jdungeon.core.world.World.add" alt="" coords="268,5,468,35"/>
+<area shape="rect" id="node5" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a2f8dfacbf6031222382fd92ab1544ed2" title="jdungeon.core.world.World.clone" alt="" coords="535,84,745,113"/>
+<area shape="rect" id="node12" href="$classjdungeon_1_1core_1_1world_1_1_board.html#a047b0ef20faff398e51e85d1b6059cbd" title="jdungeon.core.world.Board.replace" alt="" coords="257,163,479,192"/>
+<area shape="rect" id="node20" href="$classjdungeon_1_1core_1_1world_1_1_world.html#abf431eef1cb2ad9db092e8459403a200" title="jdungeon.core.world.World.World" alt="" coords="261,109,475,139"/>
+<area shape="rect" id="node8" href="$classjdungeon_1_1frontend_1_1_game.html#a995a4352abccfd549e5002f29c8746df" title="jdungeon.frontend.Game.NewGame" alt="" coords="801,31,1031,60"/>
+<area shape="rect" id="node10" href="$classjdungeon_1_1frontend_1_1_game.html#ad9023872333040ed40b4bb85e4ab41bd" title="jdungeon.frontend.Game.restart" alt="" coords="813,84,1019,113"/>
+<area shape="rect" id="node14" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a2b0f5b8dfecc62c20ab3be6df0643da9" title="jdungeon.core.world.World.replace" alt="" coords="529,163,751,192"/>
+<area shape="rect" id="node16" href="$classjdungeon_1_1core_1_1world_1_1_vulnerable.html#a16f60387f198bbe26aa12c0925fdc2d4" title="jdungeon.core.world.Vulnerable.die" alt="" coords="804,163,1028,192"/>
+<area shape="rect" id="node18" href="$classjdungeon_1_1core_1_1world_1_1_vulnerable.html#a5a5fd985229f2087e93869df0abc4f16" title="jdungeon.core.world.Vulnerable.hurtBy" alt="" coords="1080,163,1325,192"/>
+</map>

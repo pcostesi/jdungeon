@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a2f8dfacbf6031222382fd92ab1544ed2" title="jdungeon.core.world.World.clone" alt="" coords="553,29,764,59"/>
+<area shape="rect" id="node10" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a1c3590e19ddc3b7c15652f340170d704" title="jdungeon.core.world.World.getX" alt="" coords="289,83,495,112"/>
+<area shape="rect" id="node6" href="$classjdungeon_1_1frontend_1_1_game.html#a995a4352abccfd549e5002f29c8746df" title="jdungeon.frontend.Game.NewGame" alt="" coords="823,83,1052,112"/>
+<area shape="rect" id="node8" href="$classjdungeon_1_1frontend_1_1_game.html#ad9023872333040ed40b4bb85e4ab41bd" title="jdungeon.frontend.Game.restart" alt="" coords="835,29,1040,59"/>
+<area shape="rect" id="node12" href="$classjdungeon_1_1frontend_1_1_game.html#a9163c3e392b84832fae53080a32cc7a7" title="jdungeon.frontend.Game.startGame" alt="" coords="544,83,773,112"/>
+<area shape="rect" id="node14" href="$classjdungeon_1_1frontend_1_1_game.html#a36a352daddeb9a6823bb1e3565c94bd8" title="jdungeon.frontend.Game.load" alt="" coords="841,136,1033,165"/>
+</map>

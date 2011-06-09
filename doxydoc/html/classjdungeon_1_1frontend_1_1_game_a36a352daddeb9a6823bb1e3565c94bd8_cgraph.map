@@ -1,0 +1,29 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classjdungeon_1_1frontend_1_1_menu.html#afc54f9caea9899570d728e23fb32c696" title="jdungeon.frontend.Menu.addOptions" alt="" coords="593,346,823,375"/>
+<area shape="rect" id="node5" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a31524ff278ad7663579476d66f777f04" title="jdungeon.core.world.World.getBoss" alt="" coords="271,135,497,164"/>
+<area shape="rect" id="node24" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a104fb8d3ad3b13724c6ad3da0a0ee549" title="jdungeon.core.world.World.getPlayer" alt="" coords="267,215,501,244"/>
+<area shape="rect" id="node31" href="$classjdungeon_1_1parser_1_1_world_assembler.html#a430b56ec55f4b744079592d373638d49" title="jdungeon.parser.WorldAssembler.loadGame" alt="" coords="245,398,523,427"/>
+<area shape="rect" id="node33" href="$classjdungeon_1_1frontend_1_1_game.html#a9163c3e392b84832fae53080a32cc7a7" title="jdungeon.frontend.Game.startGame" alt="" coords="269,451,499,480"/>
+<area shape="rect" id="node64" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a091011deaa7ef3e85a14d3d8acfa5d6e" title="jdungeon.core.world.World.subscribe" alt="" coords="267,504,501,534"/>
+<area shape="rect" id="node7" href="$classjdungeon_1_1core_1_1world_1_1filter_1_1_board_filter.html#af6a5d5295f6dba33edd9726fb0c373e1" title="jdungeon.core.world.filter.BoardFilter.filter" alt="" coords="939,58,1200,87"/>
+<area shape="rect" id="node11" href="$classjdungeon_1_1core_1_1world_1_1_board.html#ad1cf12a52a7bf6f802e41fa82947d9c1" title="jdungeon.core.world.Board.filter" alt="" coords="967,291,1172,320"/>
+<area shape="rect" id="node13" href="$classjdungeon_1_1core_1_1world_1_1filter_1_1_board_filter.html#a6a1ab6e8ed21b6e8bc5b273eb8a2bbe4" title="jdungeon.core.world.filter.BoardFilter.get" alt="" coords="580,242,836,271"/>
+<area shape="rect" id="node17" href="$classjdungeon_1_1core_1_1world_1_1filter_1_1_entry.html#a26ff411e33fc77161537a1b6608f7fd1" title="jdungeon.core.world.filter.Entry.getEntity" alt="" coords="579,188,837,218"/>
+<area shape="rect" id="node19" href="$classjdungeon_1_1core_1_1world_1_1_vulnerable.html#a377cb39871aae1afed1f2fee4af6e181" title="jdungeon.core.world.Vulnerable.subscribe" alt="" coords="577,82,839,111"/>
+<area shape="rect" id="node21" href="$classjdungeon_1_1core_1_1world_1_1filter_1_1_board_filter.html#aaa128c13b73053b766383e23b5f2a964" title="jdungeon.core.world.filter.BoardFilter.where" alt="" coords="572,135,844,164"/>
+<area shape="rect" id="node9" href="$interfacejdungeon_1_1core_1_1world_1_1filter_1_1_filter.html#a31f7628b379748e2a7ae0e77ca7d30bf" title="jdungeon.core.world.filter.Filter.apply" alt="" coords="1309,58,1544,87"/>
+<area shape="rect" id="node15" href="$classjdungeon_1_1core_1_1world_1_1filter_1_1_board_filter.html#a59b85b4ccb3ea7ac499a479d7661a50d" title="jdungeon.core.world.filter.BoardFilter.count" alt="" coords="935,238,1204,267"/>
+<area shape="rect" id="node36" href="$classjdungeon_1_1frontend_1_1_game.html#adc7387f710c783c36aec6bb796af2ce1" title="jdungeon.frontend.Game.endMap" alt="" coords="601,504,815,534"/>
+<area shape="rect" id="node38" href="$classjdungeon_1_1frontend_1_1_map_drawer.html#a1f2d0d91cb4b24de96fe54059d949409" title="jdungeon.frontend.MapDrawer.GetGP" alt="" coords="949,451,1189,480"/>
+<area shape="rect" id="node45" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a1c3590e19ddc3b7c15652f340170d704" title="jdungeon.core.world.World.getX" alt="" coords="605,584,811,614"/>
+<area shape="rect" id="node49" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a8feef6fdb6341b8bbb0d4c3fedbee62e" title="jdungeon.core.world.World.getY" alt="" coords="605,638,811,667"/>
+<area shape="rect" id="node53" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a9ef8adc1ff22ccd025db1380dce3c308" title="jdungeon.core.world.World.syncEvent" alt="" coords="587,399,829,428"/>
+<area shape="rect" id="node40" href="$classjdungeon_1_1frontend_1_1_data_panel.html#a5faa11da3dd56e5f7bda7332dbca27e8" title="jdungeon.frontend.DataPanel.getPanel" alt="" coords="947,504,1192,534"/>
+<area shape="rect" id="node42" href="$classjdungeon_1_1frontend_1_1_menu.html#a60162c0b7ef84d0c069adff1f5462997" title="jdungeon.frontend.Menu.removeOptions" alt="" coords="943,558,1196,587"/>
+<area shape="rect" id="node47" href="$classjdungeon_1_1core_1_1world_1_1_board.html#a661608a34438140c39ebeedf888a11ff" title="jdungeon.core.world.Board.getSizeX" alt="" coords="953,611,1185,640"/>
+<area shape="rect" id="node51" href="$classjdungeon_1_1core_1_1world_1_1_board.html#a2e91cfc5861d79749898dc61b958d4d6" title="jdungeon.core.world.Board.getSizeY" alt="" coords="953,664,1185,694"/>
+<area shape="rect" id="node56" href="$classjdungeon_1_1core_1_1world_1_1filter_1_1_board_filter.html#a19d29f8693c5eb64c196b1eecb8b8de4" title="jdungeon.core.world.filter.BoardFilter.noPointsContaining" alt="" coords="895,344,1244,374"/>
+<area shape="rect" id="node60" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a0a866cdfd25ddff71c49d8fc0486a96b" title="jdungeon.core.world.World.notifyChange" alt="" coords="941,398,1197,427"/>
+<area shape="rect" id="node58" href="$classjdungeon_1_1core_1_1world_1_1filter_1_1_board_filter.html#a67f4fa3c42470dc5d3c3130f9f6348dc" title="jdungeon.core.world.filter.BoardFilter.notIn" alt="" coords="1293,344,1560,374"/>
+<area shape="rect" id="node62" href="$classjdungeon_1_1core_1_1world_1_1_board.html#ada51771bcdc2668bcaf14ad7149f53d8" title="jdungeon.core.world.Board.in" alt="" coords="1332,398,1521,427"/>
+</map>

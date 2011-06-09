@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classjdungeon_1_1core_1_1world_1_1_vulnerable.html#adb7c5a193d5f727f17c0c137e2ff3fa0" title="jdungeon.core.world.Vulnerable.getHP" alt="" coords="305,5,548,35"/>
+<area shape="rect" id="node5" href="$classjdungeon_1_1core_1_1world_1_1_entity.html#aec74d587dd3b9a3e3f1329b0f6295b73" title="jdungeon.core.world.Entity.getWorld" alt="" coords="311,59,543,88"/>
+<area shape="rect" id="node7" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a3e93c0a5378e46a0e408810368927040" title="jdungeon.core.world.World.removeHurtEntity" alt="" coords="285,112,568,141"/>
+</map>

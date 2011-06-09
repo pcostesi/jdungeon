@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classjdungeon_1_1core_1_1world_1_1_point.html#ab57fc17d353e829e762fbd8f438fb764" title="jdungeon.core.world.Point.getX" alt="" coords="245,5,448,35"/>
+<area shape="rect" id="node5" href="$classjdungeon_1_1core_1_1world_1_1_point.html#a21edf459bf1c122c03d71070663a8d1b" title="jdungeon.core.world.Point.getY" alt="" coords="245,59,448,88"/>
+<area shape="rect" id="node7" href="$classjdungeon_1_1core_1_1world_1_1_board.html#ada51771bcdc2668bcaf14ad7149f53d8" title="jdungeon.core.world.Board.in" alt="" coords="252,112,441,141"/>
+</map>

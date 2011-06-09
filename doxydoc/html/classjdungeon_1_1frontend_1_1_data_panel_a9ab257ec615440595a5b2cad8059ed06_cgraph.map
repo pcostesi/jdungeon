@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classjdungeon_1_1frontend_1_1_data_panel.html#add76416769f5544c27dfee51e2d8d0d5" title="jdungeon.frontend.DataPanel.createEnemy" alt="" coords="327,85,596,115"/>
+<area shape="rect" id="node5" href="$classjdungeon_1_1core_1_1world_1_1_vulnerable.html#adb7c5a193d5f727f17c0c137e2ff3fa0" title="jdungeon.core.world.Vulnerable.getHP" alt="" coords="668,5,911,35"/>
+<area shape="rect" id="node7" href="$classjdungeon_1_1core_1_1world_1_1_vulnerable.html#a5eff736ac3c1dc77404368fb0e069320" title="jdungeon.core.world.Vulnerable.getLevel" alt="" coords="661,59,917,88"/>
+<area shape="rect" id="node9" href="$classjdungeon_1_1core_1_1world_1_1_vulnerable.html#ad6e18cebbf70089f58a4b68075a99133" title="jdungeon.core.world.Vulnerable.getMaxHealth" alt="" coords="645,112,933,141"/>
+<area shape="rect" id="node11" href="$classjdungeon_1_1core_1_1world_1_1_vulnerable.html#adf9a368d3db536032e75382abdd373e4" title="jdungeon.core.world.Vulnerable.getStrength" alt="" coords="652,165,927,195"/>
+<area shape="rect" id="node13" href="$classjdungeon_1_1core_1_1world_1_1_vulnerable.html#affe3e78949e4939e0ac7988a13d81b67" title="jdungeon.core.world.Vulnerable.getStrengthBonus" alt="" coords="983,165,1292,195"/>
+</map>

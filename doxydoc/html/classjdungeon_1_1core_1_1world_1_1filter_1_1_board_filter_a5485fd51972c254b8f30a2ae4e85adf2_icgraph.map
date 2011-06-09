@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a03c55437171cf7d0e77110c94470ed1e" title="jdungeon.core.world.World.clearView" alt="" coords="320,5,557,35"/>
+<area shape="rect" id="node7" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a6208d22fa4bb88ab3f77eb8eac6bffce" title="jdungeon.core.world.World.getEntityInPoint" alt="" coords="303,59,575,88"/>
+<area shape="rect" id="node5" href="$classjdungeon_1_1core_1_1world_1_1_player.html#a8928df28dae4b6db028608f6dac561f4" title="jdungeon.core.world.Player.setWorld" alt="" coords="624,5,859,35"/>
+<area shape="rect" id="node9" href="$classjdungeon_1_1frontend_1_1_data_panel.html#a360c0ccfc1681743d6a5d8f3c01087ee" title="jdungeon.frontend.DataPanel.update" alt="" coords="625,59,857,88"/>
+<area shape="rect" id="node11" href="$classjdungeon_1_1frontend_1_1_game.html#a6e33d7cb1ee618b6995d3fd1b25edcf3" title="jdungeon.frontend.Game.updatePoint" alt="" coords="907,59,1144,88"/>
+</map>

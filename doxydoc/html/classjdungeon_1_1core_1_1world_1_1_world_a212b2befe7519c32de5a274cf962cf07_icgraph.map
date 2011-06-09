@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a4a9e3f989ee030cf350fd6dcfb6b6362" title="jdungeon.core.world.World.add" alt="" coords="303,5,503,35"/>
+<area shape="rect" id="node5" href="$classjdungeon_1_1parser_1_1_world_assembler.html#ae0b694e0b28f0c1ecfdbd6e7175b6906" title="jdungeon.parser.WorldAssembler.worldCreator" alt="" coords="257,59,548,88"/>
+<area shape="rect" id="node7" href="$classjdungeon_1_1parser_1_1_world_assembler.html#a6a2e5467c12204e9cade2cb8c433830e" title="jdungeon.parser.WorldAssembler.createNewWorld" alt="" coords="597,59,912,88"/>
+<area shape="rect" id="node9" href="$classjdungeon_1_1frontend_1_1_game.html#a995a4352abccfd549e5002f29c8746df" title="jdungeon.frontend.Game.NewGame" alt="" coords="961,59,1191,88"/>
+</map>

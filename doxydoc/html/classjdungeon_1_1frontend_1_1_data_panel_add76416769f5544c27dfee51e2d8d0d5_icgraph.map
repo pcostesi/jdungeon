@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classjdungeon_1_1frontend_1_1_data_panel.html#a9ab257ec615440595a5b2cad8059ed06" title="jdungeon.frontend.DataPanel.showMonster" alt="" coords="325,5,597,35"/>
+<area shape="rect" id="node5" href="$classjdungeon_1_1frontend_1_1_data_panel.html#a360c0ccfc1681743d6a5d8f3c01087ee" title="jdungeon.frontend.DataPanel.update" alt="" coords="647,5,879,35"/>
+<area shape="rect" id="node7" href="$classjdungeon_1_1frontend_1_1_game.html#a6e33d7cb1ee618b6995d3fd1b25edcf3" title="jdungeon.frontend.Game.updatePoint" alt="" coords="928,5,1165,35"/>
+</map>

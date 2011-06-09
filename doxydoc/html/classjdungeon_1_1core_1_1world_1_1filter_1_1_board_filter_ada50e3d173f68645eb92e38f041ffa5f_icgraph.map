@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a2f8dfacbf6031222382fd92ab1544ed2" title="jdungeon.core.world.World.clone" alt="" coords="365,59,576,88"/>
+<area shape="rect" id="node10" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a6208d22fa4bb88ab3f77eb8eac6bffce" title="jdungeon.core.world.World.getEntityInPoint" alt="" coords="335,112,607,141"/>
+<area shape="rect" id="node6" href="$classjdungeon_1_1frontend_1_1_game.html#a995a4352abccfd549e5002f29c8746df" title="jdungeon.frontend.Game.NewGame" alt="" coords="659,5,888,35"/>
+<area shape="rect" id="node8" href="$classjdungeon_1_1frontend_1_1_game.html#ad9023872333040ed40b4bb85e4ab41bd" title="jdungeon.frontend.Game.restart" alt="" coords="671,59,876,88"/>
+<area shape="rect" id="node12" href="$classjdungeon_1_1frontend_1_1_data_panel.html#a360c0ccfc1681743d6a5d8f3c01087ee" title="jdungeon.frontend.DataPanel.update" alt="" coords="657,112,889,141"/>
+<area shape="rect" id="node14" href="$classjdungeon_1_1frontend_1_1_game.html#a6e33d7cb1ee618b6995d3fd1b25edcf3" title="jdungeon.frontend.Game.updatePoint" alt="" coords="939,112,1176,141"/>
+</map>

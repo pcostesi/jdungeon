@@ -1,0 +1,696 @@
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_board}{
+\section{jdungeon.core.world.Board Class Reference}
+\label{classjdungeon_1_1core_1_1world_1_1_board}\index{jdungeon::core::world::Board@{jdungeon::core::world::Board}}
+}
+
+
+Inheritance diagram for jdungeon.core.world.Board:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=600pt]{classjdungeon_1_1core_1_1world_1_1_board__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for jdungeon.core.world.Board:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=600pt]{classjdungeon_1_1core_1_1world_1_1_board__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjdungeon_1_1core_1_1world_1_1_board_aceeb90dc311bb2163b609733949da0a2}{Board} (String name, int x, int y)
+\item 
+int \hyperlink{classjdungeon_1_1core_1_1world_1_1_board_a2e91cfc5861d79749898dc61b958d4d6}{getSizeY} ()
+\item 
+int \hyperlink{classjdungeon_1_1core_1_1world_1_1_board_a661608a34438140c39ebeedf888a11ff}{getSizeX} ()
+\item 
+void \hyperlink{classjdungeon_1_1core_1_1world_1_1_board_a047b0ef20faff398e51e85d1b6059cbd}{replace} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} oldEntity, \hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} newEntity)
+\item 
+void \hyperlink{classjdungeon_1_1core_1_1world_1_1_board_abbffec68bb323c3596ee6da3f1bd104f}{setName} (String name)
+\item 
+String \hyperlink{classjdungeon_1_1core_1_1world_1_1_board_a78a0c7cb40b2b492a4cfb0bc3a6a1a68}{getName} ()
+\item 
+Iterator$<$ \hyperlink{classjdungeon_1_1core_1_1world_1_1filter_1_1_entry}{Entry} $>$ \hyperlink{classjdungeon_1_1core_1_1world_1_1_board_a49dc69ece7ed182b3ed9c580ceea71c2}{iterator} ()
+\item 
+\hyperlink{classjdungeon_1_1core_1_1world_1_1filter_1_1_board_filter}{BoardFilter} \hyperlink{classjdungeon_1_1core_1_1world_1_1_board_ad1cf12a52a7bf6f802e41fa82947d9c1}{filter} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Set$<$ \hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} $>$ \hyperlink{classjdungeon_1_1core_1_1world_1_1_board_a6baf039a7c209ae4b1bf4b3104e8fbd4}{neighbours} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} e)
+\item 
+Set$<$ \hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} $>$ \hyperlink{classjdungeon_1_1core_1_1world_1_1_board_a3da2114366e2170fbc6b45a0a0e77aca}{neighbours} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_point}{Point} p)
+\item 
+Set$<$ \hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} $>$ \hyperlink{classjdungeon_1_1core_1_1world_1_1_board_ada51771bcdc2668bcaf14ad7149f53d8}{in} (int x, int y)
+\item 
+Set$<$ \hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} $>$ \hyperlink{classjdungeon_1_1core_1_1world_1_1_board_a38badd8e6070d9708586e2e40f463463}{in} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_point}{Point} p)
+\item 
+void \hyperlink{classjdungeon_1_1core_1_1world_1_1_board_a3c7285f8ba8208bcb5cd874a754eeb51}{add} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} e, int x, int y)
+\item 
+void \hyperlink{classjdungeon_1_1core_1_1world_1_1_board_a3500589c14411be1da28d1e7ea03c6d8}{add} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} e, \hyperlink{classjdungeon_1_1core_1_1world_1_1_point}{Point} p)
+\item 
+void \hyperlink{classjdungeon_1_1core_1_1world_1_1_board_a9bb5cb5443ae19cd9fc4218ae3c3f3a2}{remove} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} e)
+\item 
+boolean \hyperlink{classjdungeon_1_1core_1_1world_1_1_board_acce5a16ab5087020bc437bcccb2d552e}{contains} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} e)
+\item 
+boolean \hyperlink{classjdungeon_1_1core_1_1world_1_1_board_a72518eac07162d4c9431d5ebdeba3a3d}{move} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} e, int x, int y)
+\item 
+boolean \hyperlink{classjdungeon_1_1core_1_1world_1_1_board_aafddcf0e8d8fd18c4cde1bd74b668cc7}{move} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} e, \hyperlink{classjdungeon_1_1core_1_1world_1_1_point}{Point} p)
+\item 
+\hyperlink{classjdungeon_1_1core_1_1world_1_1_point}{Point} \hyperlink{classjdungeon_1_1core_1_1world_1_1_board_a7783936fc1c904771536a446875cf94b}{getEntityPos} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} e)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The Class \hyperlink{classjdungeon_1_1core_1_1world_1_1_board}{Board}. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_board_aceeb90dc311bb2163b609733949da0a2}{
+\index{jdungeon::core::world::Board@{jdungeon::core::world::Board}!Board@{Board}}
+\index{Board@{Board}!jdungeon::core::world::Board@{jdungeon::core::world::Board}}
+\subsubsection[{Board}]{\setlength{\rightskip}{0pt plus 5cm}jdungeon.core.world.Board.Board (
+\begin{DoxyParamCaption}
+\item[{String}]{name, }
+\item[{int}]{x, }
+\item[{int}]{y}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_board_aceeb90dc311bb2163b609733949da0a2}
+Instantiates a new board.
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & the name \\
+\hline
+{\em x} & the width \\
+\hline
+{\em y} & the height \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_board_aceeb90dc311bb2163b609733949da0a2_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_board_a3c7285f8ba8208bcb5cd874a754eeb51}{
+\index{jdungeon::core::world::Board@{jdungeon::core::world::Board}!add@{add}}
+\index{add@{add}!jdungeon::core::world::Board@{jdungeon::core::world::Board}}
+\subsubsection[{add}]{\setlength{\rightskip}{0pt plus 5cm}void jdungeon.core.world.Board.add (
+\begin{DoxyParamCaption}
+\item[{{\bf Entity}}]{e, }
+\item[{int}]{x, }
+\item[{int}]{y}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classjdungeon_1_1core_1_1world_1_1_board_a3c7285f8ba8208bcb5cd874a754eeb51}
+Adds the entity.
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classjdungeon_1_1core_1_1world_1_1_board_a3500589c14411be1da28d1e7ea03c6d8}{Board.add(Entity, Point)}
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}{Parameters}
+{\em e} & the entity \\
+\hline
+{\em x} & the new x \\
+\hline
+{\em y} & the new y \\
+\hline
+\end{DoxyParams}
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_board_a3c7285f8ba8208bcb5cd874a754eeb51_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_board_a3500589c14411be1da28d1e7ea03c6d8}{
+\index{jdungeon::core::world::Board@{jdungeon::core::world::Board}!add@{add}}
+\index{add@{add}!jdungeon::core::world::Board@{jdungeon::core::world::Board}}
+\subsubsection[{add}]{\setlength{\rightskip}{0pt plus 5cm}void jdungeon.core.world.Board.add (
+\begin{DoxyParamCaption}
+\item[{{\bf Entity}}]{e, }
+\item[{{\bf Point}}]{p}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classjdungeon_1_1core_1_1world_1_1_board_a3500589c14411be1da28d1e7ea03c6d8}
+Adds the entity.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & the entity \\
+\hline
+{\em p} & the point \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_board_a3500589c14411be1da28d1e7ea03c6d8_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_board_acce5a16ab5087020bc437bcccb2d552e}{
+\index{jdungeon::core::world::Board@{jdungeon::core::world::Board}!contains@{contains}}
+\index{contains@{contains}!jdungeon::core::world::Board@{jdungeon::core::world::Board}}
+\subsubsection[{contains}]{\setlength{\rightskip}{0pt plus 5cm}boolean jdungeon.core.world.Board.contains (
+\begin{DoxyParamCaption}
+\item[{{\bf Entity}}]{e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classjdungeon_1_1core_1_1world_1_1_board_acce5a16ab5087020bc437bcccb2d552e}
+Contains checks for presence of an \hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & the entity \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true, if contains the \hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_board_acce5a16ab5087020bc437bcccb2d552e_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_board_ad1cf12a52a7bf6f802e41fa82947d9c1}{
+\index{jdungeon::core::world::Board@{jdungeon::core::world::Board}!filter@{filter}}
+\index{filter@{filter}!jdungeon::core::world::Board@{jdungeon::core::world::Board}}
+\subsubsection[{filter}]{\setlength{\rightskip}{0pt plus 5cm}{\bf BoardFilter} jdungeon.core.world.Board.filter (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_board_ad1cf12a52a7bf6f802e41fa82947d9c1}
+A BoardFilter with all the entities.
+
+\begin{DoxyReturn}{Returns}
+the board filter 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_board_ad1cf12a52a7bf6f802e41fa82947d9c1_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_board_a7783936fc1c904771536a446875cf94b}{
+\index{jdungeon::core::world::Board@{jdungeon::core::world::Board}!getEntityPos@{getEntityPos}}
+\index{getEntityPos@{getEntityPos}!jdungeon::core::world::Board@{jdungeon::core::world::Board}}
+\subsubsection[{getEntityPos}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Point} jdungeon.core.world.Board.getEntityPos (
+\begin{DoxyParamCaption}
+\item[{{\bf Entity}}]{e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classjdungeon_1_1core_1_1world_1_1_board_a7783936fc1c904771536a446875cf94b}
+Gets the entity position.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & the entity \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the entity position as a \hyperlink{classjdungeon_1_1core_1_1world_1_1_point}{Point} 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_board_a7783936fc1c904771536a446875cf94b_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_board_a7783936fc1c904771536a446875cf94b_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_board_a78a0c7cb40b2b492a4cfb0bc3a6a1a68}{
+\index{jdungeon::core::world::Board@{jdungeon::core::world::Board}!getName@{getName}}
+\index{getName@{getName}!jdungeon::core::world::Board@{jdungeon::core::world::Board}}
+\subsubsection[{getName}]{\setlength{\rightskip}{0pt plus 5cm}String jdungeon.core.world.Board.getName (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_board_a78a0c7cb40b2b492a4cfb0bc3a6a1a68}
+Gets the name.
+
+\begin{DoxyReturn}{Returns}
+the name 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_board_a78a0c7cb40b2b492a4cfb0bc3a6a1a68_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_board_a661608a34438140c39ebeedf888a11ff}{
+\index{jdungeon::core::world::Board@{jdungeon::core::world::Board}!getSizeX@{getSizeX}}
+\index{getSizeX@{getSizeX}!jdungeon::core::world::Board@{jdungeon::core::world::Board}}
+\subsubsection[{getSizeX}]{\setlength{\rightskip}{0pt plus 5cm}int jdungeon.core.world.Board.getSizeX (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_board_a661608a34438140c39ebeedf888a11ff}
+Gets the size x.
+
+\begin{DoxyReturn}{Returns}
+the size x 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_board_a661608a34438140c39ebeedf888a11ff_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_board_a2e91cfc5861d79749898dc61b958d4d6}{
+\index{jdungeon::core::world::Board@{jdungeon::core::world::Board}!getSizeY@{getSizeY}}
+\index{getSizeY@{getSizeY}!jdungeon::core::world::Board@{jdungeon::core::world::Board}}
+\subsubsection[{getSizeY}]{\setlength{\rightskip}{0pt plus 5cm}int jdungeon.core.world.Board.getSizeY (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_board_a2e91cfc5861d79749898dc61b958d4d6}
+Gets the size y.
+
+\begin{DoxyReturn}{Returns}
+the size y 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_board_a2e91cfc5861d79749898dc61b958d4d6_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_board_ada51771bcdc2668bcaf14ad7149f53d8}{
+\index{jdungeon::core::world::Board@{jdungeon::core::world::Board}!in@{in}}
+\index{in@{in}!jdungeon::core::world::Board@{jdungeon::core::world::Board}}
+\subsubsection[{in}]{\setlength{\rightskip}{0pt plus 5cm}Set$<${\bf Entity}$>$ jdungeon.core.world.Board.in (
+\begin{DoxyParamCaption}
+\item[{int}]{x, }
+\item[{int}]{y}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classjdungeon_1_1core_1_1world_1_1_board_ada51771bcdc2668bcaf14ad7149f53d8}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classjdungeon_1_1core_1_1world_1_1_board_a38badd8e6070d9708586e2e40f463463}{Board.in(Point)}
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}{Parameters}
+{\em x} & the x \\
+\hline
+{\em y} & the y \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the sets the 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_board_ada51771bcdc2668bcaf14ad7149f53d8_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_board_a38badd8e6070d9708586e2e40f463463}{
+\index{jdungeon::core::world::Board@{jdungeon::core::world::Board}!in@{in}}
+\index{in@{in}!jdungeon::core::world::Board@{jdungeon::core::world::Board}}
+\subsubsection[{in}]{\setlength{\rightskip}{0pt plus 5cm}Set$<${\bf Entity}$>$ jdungeon.core.world.Board.in (
+\begin{DoxyParamCaption}
+\item[{{\bf Point}}]{p}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classjdungeon_1_1core_1_1world_1_1_board_a38badd8e6070d9708586e2e40f463463}
+Returns all entities in a given point.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & the point \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the set of all the entities in the point p. 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_board_a38badd8e6070d9708586e2e40f463463_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_board_a49dc69ece7ed182b3ed9c580ceea71c2}{
+\index{jdungeon::core::world::Board@{jdungeon::core::world::Board}!iterator@{iterator}}
+\index{iterator@{iterator}!jdungeon::core::world::Board@{jdungeon::core::world::Board}}
+\subsubsection[{iterator}]{\setlength{\rightskip}{0pt plus 5cm}Iterator$<${\bf Entry}$>$ jdungeon.core.world.Board.iterator (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_board_a49dc69ece7ed182b3ed9c580ceea71c2}
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_board_aafddcf0e8d8fd18c4cde1bd74b668cc7}{
+\index{jdungeon::core::world::Board@{jdungeon::core::world::Board}!move@{move}}
+\index{move@{move}!jdungeon::core::world::Board@{jdungeon::core::world::Board}}
+\subsubsection[{move}]{\setlength{\rightskip}{0pt plus 5cm}boolean jdungeon.core.world.Board.move (
+\begin{DoxyParamCaption}
+\item[{{\bf Entity}}]{e, }
+\item[{{\bf Point}}]{p}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classjdungeon_1_1core_1_1world_1_1_board_aafddcf0e8d8fd18c4cde1bd74b668cc7}
+Move an \hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} to a new \hyperlink{classjdungeon_1_1core_1_1world_1_1_point}{Point}, dispatching collisions and visibility events.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & the entity \\
+\hline
+{\em p} & the point \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true, if the entity moved 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_board_aafddcf0e8d8fd18c4cde1bd74b668cc7_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_board_a72518eac07162d4c9431d5ebdeba3a3d}{
+\index{jdungeon::core::world::Board@{jdungeon::core::world::Board}!move@{move}}
+\index{move@{move}!jdungeon::core::world::Board@{jdungeon::core::world::Board}}
+\subsubsection[{move}]{\setlength{\rightskip}{0pt plus 5cm}boolean jdungeon.core.world.Board.move (
+\begin{DoxyParamCaption}
+\item[{{\bf Entity}}]{e, }
+\item[{int}]{x, }
+\item[{int}]{y}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classjdungeon_1_1core_1_1world_1_1_board_a72518eac07162d4c9431d5ebdeba3a3d}
+Overloaded Move.
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classjdungeon_1_1core_1_1world_1_1_board_aafddcf0e8d8fd18c4cde1bd74b668cc7}{Board.move(Entity, Point)}
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}{Parameters}
+{\em e} & the entity \\
+\hline
+{\em x} & the new x \\
+\hline
+{\em y} & the new y \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true, if moved 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_board_a72518eac07162d4c9431d5ebdeba3a3d_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_board_a6baf039a7c209ae4b1bf4b3104e8fbd4}{
+\index{jdungeon::core::world::Board@{jdungeon::core::world::Board}!neighbours@{neighbours}}
+\index{neighbours@{neighbours}!jdungeon::core::world::Board@{jdungeon::core::world::Board}}
+\subsubsection[{neighbours}]{\setlength{\rightskip}{0pt plus 5cm}Set$<${\bf Entity}$>$ jdungeon.core.world.Board.neighbours (
+\begin{DoxyParamCaption}
+\item[{{\bf Entity}}]{e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classjdungeon_1_1core_1_1world_1_1_board_a6baf039a7c209ae4b1bf4b3104e8fbd4}
+Get the immediate neighbours of an entity.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & the entity \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the set of neighbouring entities 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_board_a6baf039a7c209ae4b1bf4b3104e8fbd4_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_board_a6baf039a7c209ae4b1bf4b3104e8fbd4_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_board_a3da2114366e2170fbc6b45a0a0e77aca}{
+\index{jdungeon::core::world::Board@{jdungeon::core::world::Board}!neighbours@{neighbours}}
+\index{neighbours@{neighbours}!jdungeon::core::world::Board@{jdungeon::core::world::Board}}
+\subsubsection[{neighbours}]{\setlength{\rightskip}{0pt plus 5cm}Set$<${\bf Entity}$>$ jdungeon.core.world.Board.neighbours (
+\begin{DoxyParamCaption}
+\item[{{\bf Point}}]{p}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classjdungeon_1_1core_1_1world_1_1_board_a3da2114366e2170fbc6b45a0a0e77aca}
+Get the immediate neighbours of a point.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & the point \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the sets of neighbouring entities 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_board_a3da2114366e2170fbc6b45a0a0e77aca_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_board_a9bb5cb5443ae19cd9fc4218ae3c3f3a2}{
+\index{jdungeon::core::world::Board@{jdungeon::core::world::Board}!remove@{remove}}
+\index{remove@{remove}!jdungeon::core::world::Board@{jdungeon::core::world::Board}}
+\subsubsection[{remove}]{\setlength{\rightskip}{0pt plus 5cm}void jdungeon.core.world.Board.remove (
+\begin{DoxyParamCaption}
+\item[{{\bf Entity}}]{e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classjdungeon_1_1core_1_1world_1_1_board_a9bb5cb5443ae19cd9fc4218ae3c3f3a2}
+Removes the entity.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & the entity \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_board_a9bb5cb5443ae19cd9fc4218ae3c3f3a2_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_board_a9bb5cb5443ae19cd9fc4218ae3c3f3a2_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_board_a047b0ef20faff398e51e85d1b6059cbd}{
+\index{jdungeon::core::world::Board@{jdungeon::core::world::Board}!replace@{replace}}
+\index{replace@{replace}!jdungeon::core::world::Board@{jdungeon::core::world::Board}}
+\subsubsection[{replace}]{\setlength{\rightskip}{0pt plus 5cm}void jdungeon.core.world.Board.replace (
+\begin{DoxyParamCaption}
+\item[{{\bf Entity}}]{oldEntity, }
+\item[{{\bf Entity}}]{newEntity}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_board_a047b0ef20faff398e51e85d1b6059cbd}
+Replace an entity with another one.
+
+
+\begin{DoxyParams}{Parameters}
+{\em oldEntity} & the old entity \\
+\hline
+{\em newEntity} & the new entity \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_board_a047b0ef20faff398e51e85d1b6059cbd_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_board_a047b0ef20faff398e51e85d1b6059cbd_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_board_abbffec68bb323c3596ee6da3f1bd104f}{
+\index{jdungeon::core::world::Board@{jdungeon::core::world::Board}!setName@{setName}}
+\index{setName@{setName}!jdungeon::core::world::Board@{jdungeon::core::world::Board}}
+\subsubsection[{setName}]{\setlength{\rightskip}{0pt plus 5cm}void jdungeon.core.world.Board.setName (
+\begin{DoxyParamCaption}
+\item[{String}]{name}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_board_abbffec68bb323c3596ee6da3f1bd104f}
+Sets the name.
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & the new name \\
+\hline
+\end{DoxyParams}
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_board_abbffec68bb323c3596ee6da3f1bd104f_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/jdungeon/core/world/\hyperlink{_board_8java}{Board.java}\end{DoxyCompactItemize}

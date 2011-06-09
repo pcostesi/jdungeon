@@ -1,0 +1,66 @@
+\hypertarget{classjdungeon_1_1frontend_1_1gui_1_1_image_utils}{
+\section{jdungeon.frontend.gui.ImageUtils Class Reference}
+\label{classjdungeon_1_1frontend_1_1gui_1_1_image_utils}\index{jdungeon::frontend::gui::ImageUtils@{jdungeon::frontend::gui::ImageUtils}}
+}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Image \hyperlink{classjdungeon_1_1frontend_1_1gui_1_1_image_utils_ae8f0efc5840d3e7ebc08766a67c06927}{loadImage} (String fileName)  throws IOException 
+\item 
+static Image \hyperlink{classjdungeon_1_1frontend_1_1gui_1_1_image_utils_af4c01a2095bc6f6a254d7f2f984f768a}{drawString} (Image img, String text, Color color)
+\item 
+static Image \hyperlink{classjdungeon_1_1frontend_1_1gui_1_1_image_utils_af718dec2a55f6683d3f083a78e02b6ef}{overlap} (Image image1, Image image2)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Clase con métodos útiles para el manejo de imágenes. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classjdungeon_1_1frontend_1_1gui_1_1_image_utils_af4c01a2095bc6f6a254d7f2f984f768a}{
+\index{jdungeon::frontend::gui::ImageUtils@{jdungeon::frontend::gui::ImageUtils}!drawString@{drawString}}
+\index{drawString@{drawString}!jdungeon::frontend::gui::ImageUtils@{jdungeon::frontend::gui::ImageUtils}}
+\subsubsection[{drawString}]{\setlength{\rightskip}{0pt plus 5cm}static Image jdungeon.frontend.gui.ImageUtils.drawString (
+\begin{DoxyParamCaption}
+\item[{Image}]{img, }
+\item[{String}]{text, }
+\item[{Color}]{color}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classjdungeon_1_1frontend_1_1gui_1_1_image_utils_af4c01a2095bc6f6a254d7f2f984f768a}
+Dibuja un texto en el vértice inferior derecho de la imagen, con el color indicado. Retorna una imagen nueva con los cambios, la imagen original no se modifica. \hypertarget{classjdungeon_1_1frontend_1_1gui_1_1_image_utils_ae8f0efc5840d3e7ebc08766a67c06927}{
+\index{jdungeon::frontend::gui::ImageUtils@{jdungeon::frontend::gui::ImageUtils}!loadImage@{loadImage}}
+\index{loadImage@{loadImage}!jdungeon::frontend::gui::ImageUtils@{jdungeon::frontend::gui::ImageUtils}}
+\subsubsection[{loadImage}]{\setlength{\rightskip}{0pt plus 5cm}static Image jdungeon.frontend.gui.ImageUtils.loadImage (
+\begin{DoxyParamCaption}
+\item[{String}]{fileName}
+\end{DoxyParamCaption}
+)  throws IOException \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classjdungeon_1_1frontend_1_1gui_1_1_image_utils_ae8f0efc5840d3e7ebc08766a67c06927}
+Carga una imagen y retorna una instancia de la misma. Si hay algun problema al leer el archivo lanza una excepcion. 
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1frontend_1_1gui_1_1_image_utils_ae8f0efc5840d3e7ebc08766a67c06927_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1frontend_1_1gui_1_1_image_utils_af718dec2a55f6683d3f083a78e02b6ef}{
+\index{jdungeon::frontend::gui::ImageUtils@{jdungeon::frontend::gui::ImageUtils}!overlap@{overlap}}
+\index{overlap@{overlap}!jdungeon::frontend::gui::ImageUtils@{jdungeon::frontend::gui::ImageUtils}}
+\subsubsection[{overlap}]{\setlength{\rightskip}{0pt plus 5cm}static Image jdungeon.frontend.gui.ImageUtils.overlap (
+\begin{DoxyParamCaption}
+\item[{Image}]{image1, }
+\item[{Image}]{image2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classjdungeon_1_1frontend_1_1gui_1_1_image_utils_af718dec2a55f6683d3f083a78e02b6ef}
+Superpone dos imágenes. Retorna una nueva imagen con las 2 imágenes recibidas superpuestas. Las originales no se modifican. 
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/jdungeon/frontend/gui/\hyperlink{_image_utils_8java}{ImageUtils.java}\end{DoxyCompactItemize}

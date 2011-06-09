@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classjdungeon_1_1core_1_1world_1_1_player.html#ae4b31c3cf3ce1e12087737a01e7953c7" title="jdungeon.core.world.Player.awardExperience" alt="" coords="701,84,984,113"/>
+<area shape="rect" id="node5" href="$classjdungeon_1_1frontend_1_1_data_panel.html#add76416769f5544c27dfee51e2d8d0d5" title="jdungeon.frontend.DataPanel.createEnemy" alt="" coords="347,5,616,35"/>
+<area shape="rect" id="node13" href="$classjdungeon_1_1frontend_1_1_data_panel.html#a88937e7a18c37a473afe3eee68b80512" title="jdungeon.frontend.DataPanel.createPlayer" alt="" coords="348,216,615,245"/>
+<area shape="rect" id="node17" href="$classjdungeon_1_1frontend_1_1_data_panel.html#a6b5abcbb052107a60ceb8e36a53b9349" title="jdungeon.frontend.DataPanel.event" alt="" coords="368,163,595,192"/>
+<area shape="rect" id="node19" href="$classjdungeon_1_1core_1_1world_1_1_player.html#a1ca99ff81b0fac7ef5307b17bc05e50e" title="jdungeon.core.world.Player.getExperienceForNextLevel" alt="" coords="309,109,653,139"/>
+<area shape="rect" id="node22" href="$classjdungeon_1_1core_1_1world_1_1creatures_1_1_monster.html#ab0ffd2d1674b62183b41bcb378c34d44" title="jdungeon.core.world.creatures.Monster.hurtBy" alt="" coords="337,269,625,299"/>
+<area shape="rect" id="node7" href="$classjdungeon_1_1frontend_1_1_data_panel.html#a9ab257ec615440595a5b2cad8059ed06" title="jdungeon.frontend.DataPanel.showMonster" alt="" coords="707,5,979,35"/>
+<area shape="rect" id="node9" href="$classjdungeon_1_1frontend_1_1_data_panel.html#a360c0ccfc1681743d6a5d8f3c01087ee" title="jdungeon.frontend.DataPanel.update" alt="" coords="1033,5,1265,35"/>
+<area shape="rect" id="node11" href="$classjdungeon_1_1frontend_1_1_game.html#a6e33d7cb1ee618b6995d3fd1b25edcf3" title="jdungeon.frontend.Game.updatePoint" alt="" coords="1315,5,1552,35"/>
+<area shape="rect" id="node15" href="$classjdungeon_1_1frontend_1_1_data_panel.html#a1b9a0f7541918ee38411ea16371f444a" title="jdungeon.frontend.DataPanel.DataPanel" alt="" coords="716,216,969,245"/>
+</map>

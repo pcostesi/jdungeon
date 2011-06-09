@@ -1,0 +1,79 @@
+\hypertarget{interfacejdungeon_1_1core_1_1world_1_1_map_observer}{
+\section{jdungeon.core.world.MapObserver Interface Reference}
+\label{interfacejdungeon_1_1core_1_1world_1_1_map_observer}\index{jdungeon::core::world::MapObserver@{jdungeon::core::world::MapObserver}}
+}
+
+
+Inheritance diagram for jdungeon.core.world.MapObserver:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=244pt]{interfacejdungeon_1_1core_1_1world_1_1_map_observer__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{interfacejdungeon_1_1core_1_1world_1_1_map_observer_a1f6b96343ac70f185ceb5b2922c31ec8}{onMapChange} (final \hyperlink{classjdungeon_1_1core_1_1world_1_1_point}{Point} p, final \hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity}\mbox{[}$\,$\mbox{]} entities)
+\item 
+void \hyperlink{interfacejdungeon_1_1core_1_1world_1_1_map_observer_ac7fb8e9ca121ea92dbf868f76abc3e68}{onPlayerDeath} ()
+\item 
+void \hyperlink{interfacejdungeon_1_1core_1_1world_1_1_map_observer_a1f32df24b751c925a681c571065c8f6f}{onBossDeath} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+An asynchronous update interface for receiving notifications about Map information as the Map is constructed. 
+
+\subsection{Member Function Documentation}
+\hypertarget{interfacejdungeon_1_1core_1_1world_1_1_map_observer_a1f32df24b751c925a681c571065c8f6f}{
+\index{jdungeon::core::world::MapObserver@{jdungeon::core::world::MapObserver}!onBossDeath@{onBossDeath}}
+\index{onBossDeath@{onBossDeath}!jdungeon::core::world::MapObserver@{jdungeon::core::world::MapObserver}}
+\subsubsection[{onBossDeath}]{\setlength{\rightskip}{0pt plus 5cm}void jdungeon.core.world.MapObserver.onBossDeath (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{interfacejdungeon_1_1core_1_1world_1_1_map_observer_a1f32df24b751c925a681c571065c8f6f}
+This method is called when the main antagonist dies. 
+
+Implemented in \hyperlink{classjdungeon_1_1frontend_1_1_game_a198317532f26dd32e7f47e9719c439fb}{jdungeon.frontend.Game}.
+
+\hypertarget{interfacejdungeon_1_1core_1_1world_1_1_map_observer_a1f6b96343ac70f185ceb5b2922c31ec8}{
+\index{jdungeon::core::world::MapObserver@{jdungeon::core::world::MapObserver}!onMapChange@{onMapChange}}
+\index{onMapChange@{onMapChange}!jdungeon::core::world::MapObserver@{jdungeon::core::world::MapObserver}}
+\subsubsection[{onMapChange}]{\setlength{\rightskip}{0pt plus 5cm}void jdungeon.core.world.MapObserver.onMapChange (
+\begin{DoxyParamCaption}
+\item[{final {\bf Point}}]{p, }
+\item[{final {\bf Entity}\mbox{[}$\,$\mbox{]}}]{entities}
+\end{DoxyParamCaption}
+)}}
+\label{interfacejdungeon_1_1core_1_1world_1_1_map_observer_a1f6b96343ac70f185ceb5b2922c31ec8}
+This method is called when entity movement or update requests are informed by \hyperlink{classjdungeon_1_1core_1_1world_1_1_world}{World}
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & the point \\
+\hline
+{\em entities} & the entities \\
+\hline
+\end{DoxyParams}
+\hypertarget{interfacejdungeon_1_1core_1_1world_1_1_map_observer_ac7fb8e9ca121ea92dbf868f76abc3e68}{
+\index{jdungeon::core::world::MapObserver@{jdungeon::core::world::MapObserver}!onPlayerDeath@{onPlayerDeath}}
+\index{onPlayerDeath@{onPlayerDeath}!jdungeon::core::world::MapObserver@{jdungeon::core::world::MapObserver}}
+\subsubsection[{onPlayerDeath}]{\setlength{\rightskip}{0pt plus 5cm}void jdungeon.core.world.MapObserver.onPlayerDeath (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{interfacejdungeon_1_1core_1_1world_1_1_map_observer_ac7fb8e9ca121ea92dbf868f76abc3e68}
+This method is called when the main \hyperlink{classjdungeon_1_1core_1_1world_1_1_player}{Player} dies. 
+
+Implemented in \hyperlink{classjdungeon_1_1frontend_1_1_game_a71336ffad47200e1653dfc258359103c}{jdungeon.frontend.Game}.
+
+
+
+The documentation for this interface was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/jdungeon/core/world/\hyperlink{_map_observer_8java}{MapObserver.java}\end{DoxyCompactItemize}

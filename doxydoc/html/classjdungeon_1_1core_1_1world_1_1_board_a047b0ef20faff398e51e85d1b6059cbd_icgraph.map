@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a2b0f5b8dfecc62c20ab3be6df0643da9" title="jdungeon.core.world.World.replace" alt="" coords="279,5,500,35"/>
+<area shape="rect" id="node5" href="$classjdungeon_1_1core_1_1world_1_1_vulnerable.html#a16f60387f198bbe26aa12c0925fdc2d4" title="jdungeon.core.world.Vulnerable.die" alt="" coords="549,5,773,35"/>
+<area shape="rect" id="node7" href="$classjdungeon_1_1core_1_1world_1_1_vulnerable.html#a5a5fd985229f2087e93869df0abc4f16" title="jdungeon.core.world.Vulnerable.hurtBy" alt="" coords="821,5,1067,35"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classjdungeon_1_1core_1_1world_1_1_point.html#a54c980ec3fd2714f41c2310a0f5ef0ba" title="jdungeon.core.world.Point.clone" alt="" coords="575,6,780,35"/>
+<area shape="rect" id="node7" href="$classjdungeon_1_1core_1_1world_1_1_board.html#a7783936fc1c904771536a446875cf94b" title="jdungeon.core.world.Board.getEntityPos" alt="" coords="269,31,523,60"/>
+<area shape="rect" id="node10" href="$classjdungeon_1_1core_1_1world_1_1_board.html#a72518eac07162d4c9431d5ebdeba3a3d" title="jdungeon.core.world.Board.move" alt="" coords="291,84,501,114"/>
+<area shape="rect" id="node12" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a0a866cdfd25ddff71c49d8fc0486a96b" title="jdungeon.core.world.World.notifyChange" alt="" coords="268,138,524,167"/>
+<area shape="rect" id="node5" href="$classjdungeon_1_1core_1_1world_1_1_point.html#a78afc4826a7b3eabcc2207366d923f9d" title="jdungeon.core.world.Point.Point" alt="" coords="831,6,1036,35"/>
+<area shape="rect" id="node14" href="$classjdungeon_1_1core_1_1world_1_1_board.html#ada51771bcdc2668bcaf14ad7149f53d8" title="jdungeon.core.world.Board.in" alt="" coords="583,138,772,167"/>
+</map>

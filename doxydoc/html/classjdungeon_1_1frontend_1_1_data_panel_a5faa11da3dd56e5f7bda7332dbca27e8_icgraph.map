@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classjdungeon_1_1frontend_1_1_game.html#adc7387f710c783c36aec6bb796af2ce1" title="jdungeon.frontend.Game.endMap" alt="" coords="300,112,513,141"/>
+<area shape="rect" id="node5" href="$classjdungeon_1_1frontend_1_1_game.html#a4abc1034085233bd14f1d159df7f3dc6" title="jdungeon.frontend.Game.end" alt="" coords="596,5,785,35"/>
+<area shape="rect" id="node7" href="$classjdungeon_1_1frontend_1_1_game.html#a198317532f26dd32e7f47e9719c439fb" title="jdungeon.frontend.Game.onBossDeath" alt="" coords="568,59,813,88"/>
+<area shape="rect" id="node9" href="$classjdungeon_1_1frontend_1_1_game.html#a71336ffad47200e1653dfc258359103c" title="jdungeon.frontend.Game.onPlayerDeath" alt="" coords="564,112,817,141"/>
+<area shape="rect" id="node11" href="$classjdungeon_1_1frontend_1_1_game.html#ad9023872333040ed40b4bb85e4ab41bd" title="jdungeon.frontend.Game.restart" alt="" coords="880,163,1085,192"/>
+<area shape="rect" id="node13" href="$classjdungeon_1_1frontend_1_1_game.html#a9163c3e392b84832fae53080a32cc7a7" title="jdungeon.frontend.Game.startGame" alt="" coords="576,216,805,245"/>
+<area shape="rect" id="node15" href="$classjdungeon_1_1frontend_1_1_game.html#a36a352daddeb9a6823bb1e3565c94bd8" title="jdungeon.frontend.Game.load" alt="" coords="887,216,1079,245"/>
+<area shape="rect" id="node17" href="$classjdungeon_1_1frontend_1_1_game.html#a995a4352abccfd549e5002f29c8746df" title="jdungeon.frontend.Game.NewGame" alt="" coords="868,269,1097,299"/>
+</map>

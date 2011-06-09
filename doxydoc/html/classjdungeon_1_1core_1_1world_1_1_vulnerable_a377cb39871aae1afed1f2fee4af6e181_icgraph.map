@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a31524ff278ad7663579476d66f777f04" title="jdungeon.core.world.World.getBoss" alt="" coords="321,59,548,88"/>
+<area shape="rect" id="node17" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a104fb8d3ad3b13724c6ad3da0a0ee549" title="jdungeon.core.world.World.getPlayer" alt="" coords="317,112,552,141"/>
+<area shape="rect" id="node5" href="$classjdungeon_1_1frontend_1_1_game.html#a36a352daddeb9a6823bb1e3565c94bd8" title="jdungeon.frontend.Game.load" alt="" coords="637,5,829,35"/>
+<area shape="rect" id="node7" href="$classjdungeon_1_1frontend_1_1_game.html#a995a4352abccfd549e5002f29c8746df" title="jdungeon.frontend.Game.NewGame" alt="" coords="619,59,848,88"/>
+<area shape="rect" id="node9" href="$classjdungeon_1_1core_1_1world_1_1_world.html#abadb5be57a1d6e6633a802d69420e931" title="jdungeon.core.world.World.remove" alt="" coords="623,112,844,141"/>
+<area shape="rect" id="node11" href="$classjdungeon_1_1core_1_1world_1_1bonus_1_1_explorer_bonus.html#a9167c77fd3e0de84f72ad10403b2246a" title="jdungeon.core.world.bonus.ExplorerBonus.areaBuff" alt="" coords="916,59,1233,88"/>
+<area shape="rect" id="node13" href="$classjdungeon_1_1core_1_1world_1_1bonus_1_1_strength_bonus.html#ad408870aee974a63a4cd9d802a523d35" title="jdungeon.core.world.bonus.StrengthBonus.buff" alt="" coords="928,112,1221,141"/>
+<area shape="rect" id="node15" href="$classjdungeon_1_1core_1_1world_1_1bonus_1_1_health_bonus.html#ae951e5a939df28a8b3f1436c13e3953a" title="jdungeon.core.world.bonus.HealthBonus.buff" alt="" coords="933,165,1216,195"/>
+<area shape="rect" id="node19" href="$classjdungeon_1_1frontend_1_1_data_panel.html#a88937e7a18c37a473afe3eee68b80512" title="jdungeon.frontend.DataPanel.createPlayer" alt="" coords="600,219,867,248"/>
+<area shape="rect" id="node23" href="$classjdungeon_1_1frontend_1_1_data_panel.html#a6b5abcbb052107a60ceb8e36a53b9349" title="jdungeon.frontend.DataPanel.event" alt="" coords="620,165,847,195"/>
+<area shape="rect" id="node21" href="$classjdungeon_1_1frontend_1_1_data_panel.html#a1b9a0f7541918ee38411ea16371f444a" title="jdungeon.frontend.DataPanel.DataPanel" alt="" coords="948,219,1201,248"/>
+</map>

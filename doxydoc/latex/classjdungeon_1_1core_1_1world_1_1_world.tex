@@ -1,0 +1,997 @@
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_world}{
+\section{jdungeon.core.world.World Class Reference}
+\label{classjdungeon_1_1core_1_1world_1_1_world}\index{jdungeon::core::world::World@{jdungeon::core::world::World}}
+}
+
+
+Inheritance diagram for jdungeon.core.world.World:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=600pt]{classjdungeon_1_1core_1_1world_1_1_world__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for jdungeon.core.world.World:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=600pt]{classjdungeon_1_1core_1_1world_1_1_world__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjdungeon_1_1core_1_1world_1_1_world_abf431eef1cb2ad9db092e8459403a200}{World} (String name, int x, int y)
+\item 
+Object \hyperlink{classjdungeon_1_1core_1_1world_1_1_world_a2f8dfacbf6031222382fd92ab1544ed2}{clone} ()  throws CloneNotSupportedException 
+\item 
+int \hyperlink{classjdungeon_1_1core_1_1world_1_1_world_a1c3590e19ddc3b7c15652f340170d704}{getX} ()
+\item 
+int \hyperlink{classjdungeon_1_1core_1_1world_1_1_world_a8feef6fdb6341b8bbb0d4c3fedbee62e}{getY} ()
+\item 
+\hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable}{Vulnerable}\mbox{[}$\,$\mbox{]} \hyperlink{classjdungeon_1_1core_1_1world_1_1_world_ad6d8dbb5988041a57cad42aa4b9f729e}{getHurtEntities} ()
+\item 
+void \hyperlink{classjdungeon_1_1core_1_1world_1_1_world_a091011deaa7ef3e85a14d3d8acfa5d6e}{subscribe} (\hyperlink{interfacejdungeon_1_1core_1_1world_1_1_map_observer}{MapObserver} observer)
+\item 
+void \hyperlink{classjdungeon_1_1core_1_1world_1_1_world_acf10ba5af090d902608f40674c84cb82}{unsubscribe} (\hyperlink{interfacejdungeon_1_1core_1_1world_1_1_vulnerable_observer}{VulnerableObserver} observer)
+\item 
+void \hyperlink{classjdungeon_1_1core_1_1world_1_1_world_a212b2befe7519c32de5a274cf962cf07}{add} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} e, int x, int y)
+\item 
+void \hyperlink{classjdungeon_1_1core_1_1world_1_1_world_a4a9e3f989ee030cf350fd6dcfb6b6362}{add} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} entities\mbox{[}$\,$\mbox{]}, int x, int y)
+\item 
+void \hyperlink{classjdungeon_1_1core_1_1world_1_1_world_a1597e074e16a601ed61c22a49fab6b69}{add} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} e, \hyperlink{classjdungeon_1_1core_1_1world_1_1_point}{Point} p)
+\item 
+void \hyperlink{classjdungeon_1_1core_1_1world_1_1_world_a75a2877be3cbe7e5d21c6b7209ca66fa}{add} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} e\mbox{[}$\,$\mbox{]}, \hyperlink{classjdungeon_1_1core_1_1world_1_1_point}{Point} p)
+\item 
+void \hyperlink{classjdungeon_1_1core_1_1world_1_1_world_abadb5be57a1d6e6633a802d69420e931}{remove} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} e)
+\item 
+void \hyperlink{classjdungeon_1_1core_1_1world_1_1_world_a304affa3d8a60755d18f840bbcd049d6}{remove} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} e\mbox{[}$\,$\mbox{]})
+\item 
+\hyperlink{classjdungeon_1_1core_1_1world_1_1_player}{Player} \hyperlink{classjdungeon_1_1core_1_1world_1_1_world_a104fb8d3ad3b13724c6ad3da0a0ee549}{getPlayer} ()
+\item 
+\hyperlink{classjdungeon_1_1core_1_1world_1_1creatures_1_1_monster}{Monster} \hyperlink{classjdungeon_1_1core_1_1world_1_1_world_a31524ff278ad7663579476d66f777f04}{getBoss} ()
+\item 
+void \hyperlink{classjdungeon_1_1core_1_1world_1_1_world_a9ef8adc1ff22ccd025db1380dce3c308}{syncEvent} ()
+\item 
+void \hyperlink{classjdungeon_1_1core_1_1world_1_1_world_a2b0f5b8dfecc62c20ab3be6df0643da9}{replace} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} oldEntity, \hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} newEntity)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \hyperlink{classjdungeon_1_1core_1_1world_1_1_world_a4d6e096b179297412c7fef75d0342947}{move} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} e, \hyperlink{classjdungeon_1_1core_1_1world_1_1_point}{Point} to)
+\item 
+boolean \hyperlink{classjdungeon_1_1core_1_1world_1_1_world_a9f93075e1e06302a569264709816619d}{moveDelta} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} e, int x, int y)
+\item 
+void \hyperlink{classjdungeon_1_1core_1_1world_1_1_world_a03c55437171cf7d0e77110c94470ed1e}{clearView} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} e)
+\end{DoxyCompactItemize}
+\subsection*{Package Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classjdungeon_1_1core_1_1world_1_1_world_a87ba45ab8e3980e192655a0d99645e3e}{addHurtEntity} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable}{Vulnerable} v)
+\item 
+void \hyperlink{classjdungeon_1_1core_1_1world_1_1_world_a3e93c0a5378e46a0e408810368927040}{removeHurtEntity} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable}{Vulnerable} v)
+\item 
+void \hyperlink{classjdungeon_1_1core_1_1world_1_1_world_a0a866cdfd25ddff71c49d8fc0486a96b}{notifyChange} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_point}{Point} p)
+\item 
+void \hyperlink{classjdungeon_1_1core_1_1world_1_1_world_aea5bb0068ff3c20827be95bd061e43fb}{notifyChange} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_point}{Point} p, int radius)
+\item 
+void \hyperlink{classjdungeon_1_1core_1_1world_1_1_world_aeea974d8cdf4f908836b6b40ad72b7e3}{notifyChange} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} e)
+\item 
+void \hyperlink{classjdungeon_1_1core_1_1world_1_1_world_a4dcd961470e7c74490c65bd5f87844ad}{notifyChange} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} e, int radius)
+\item 
+public$<$ T extends \hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} $>$ T\mbox{[}$\,$\mbox{]} \hyperlink{classjdungeon_1_1core_1_1world_1_1_world_a6208d22fa4bb88ab3f77eb8eac6bffce}{getEntityInPoint} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_point}{Point} p, T\mbox{[}$\,$\mbox{]} t)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The Class \hyperlink{classjdungeon_1_1core_1_1world_1_1_world}{World}. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_world_abf431eef1cb2ad9db092e8459403a200}{
+\index{jdungeon::core::world::World@{jdungeon::core::world::World}!World@{World}}
+\index{World@{World}!jdungeon::core::world::World@{jdungeon::core::world::World}}
+\subsubsection[{World}]{\setlength{\rightskip}{0pt plus 5cm}jdungeon.core.world.World.World (
+\begin{DoxyParamCaption}
+\item[{String}]{name, }
+\item[{int}]{x, }
+\item[{int}]{y}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_world_abf431eef1cb2ad9db092e8459403a200}
+Instantiates a new world.
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & the name \\
+\hline
+{\em x} & the x \\
+\hline
+{\em y} & the y \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_abf431eef1cb2ad9db092e8459403a200_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_abf431eef1cb2ad9db092e8459403a200_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_world_a212b2befe7519c32de5a274cf962cf07}{
+\index{jdungeon::core::world::World@{jdungeon::core::world::World}!add@{add}}
+\index{add@{add}!jdungeon::core::world::World@{jdungeon::core::world::World}}
+\subsubsection[{add}]{\setlength{\rightskip}{0pt plus 5cm}void jdungeon.core.world.World.add (
+\begin{DoxyParamCaption}
+\item[{{\bf Entity}}]{e, }
+\item[{int}]{x, }
+\item[{int}]{y}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_world_a212b2befe7519c32de5a274cf962cf07}
+Adds the entity to the map at the given coordinate pair.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & the e \\
+\hline
+{\em x} & the x \\
+\hline
+{\em y} & the y \\
+\hline
+\end{DoxyParams}
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_a212b2befe7519c32de5a274cf962cf07_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_world_a4a9e3f989ee030cf350fd6dcfb6b6362}{
+\index{jdungeon::core::world::World@{jdungeon::core::world::World}!add@{add}}
+\index{add@{add}!jdungeon::core::world::World@{jdungeon::core::world::World}}
+\subsubsection[{add}]{\setlength{\rightskip}{0pt plus 5cm}void jdungeon.core.world.World.add (
+\begin{DoxyParamCaption}
+\item[{{\bf Entity}}]{entities\mbox{[}$\,$\mbox{]}, }
+\item[{int}]{x, }
+\item[{int}]{y}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_world_a4a9e3f989ee030cf350fd6dcfb6b6362}
+Adds the entities to the map at the given coordinate pair.
+
+
+\begin{DoxyParams}{Parameters}
+{\em entities} & the entities \\
+\hline
+{\em x} & the x \\
+\hline
+{\em y} & the y \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_a4a9e3f989ee030cf350fd6dcfb6b6362_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_world_a1597e074e16a601ed61c22a49fab6b69}{
+\index{jdungeon::core::world::World@{jdungeon::core::world::World}!add@{add}}
+\index{add@{add}!jdungeon::core::world::World@{jdungeon::core::world::World}}
+\subsubsection[{add}]{\setlength{\rightskip}{0pt plus 5cm}void jdungeon.core.world.World.add (
+\begin{DoxyParamCaption}
+\item[{{\bf Entity}}]{e, }
+\item[{{\bf Point}}]{p}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_world_a1597e074e16a601ed61c22a49fab6b69}
+Adds the entity to the map at the given point and binds the world
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & the entity \\
+\hline
+{\em p} & the point \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_a1597e074e16a601ed61c22a49fab6b69_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_world_a75a2877be3cbe7e5d21c6b7209ca66fa}{
+\index{jdungeon::core::world::World@{jdungeon::core::world::World}!add@{add}}
+\index{add@{add}!jdungeon::core::world::World@{jdungeon::core::world::World}}
+\subsubsection[{add}]{\setlength{\rightskip}{0pt plus 5cm}void jdungeon.core.world.World.add (
+\begin{DoxyParamCaption}
+\item[{{\bf Entity}}]{e\mbox{[}$\,$\mbox{]}, }
+\item[{{\bf Point}}]{p}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_world_a75a2877be3cbe7e5d21c6b7209ca66fa}
+Adds the entities
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & the entities \\
+\hline
+{\em p} & the point \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_a75a2877be3cbe7e5d21c6b7209ca66fa_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_world_a87ba45ab8e3980e192655a0d99645e3e}{
+\index{jdungeon::core::world::World@{jdungeon::core::world::World}!addHurtEntity@{addHurtEntity}}
+\index{addHurtEntity@{addHurtEntity}!jdungeon::core::world::World@{jdungeon::core::world::World}}
+\subsubsection[{addHurtEntity}]{\setlength{\rightskip}{0pt plus 5cm}void jdungeon.core.world.World.addHurtEntity (
+\begin{DoxyParamCaption}
+\item[{{\bf Vulnerable}}]{v}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}package\mbox{]}}}}
+\label{classjdungeon_1_1core_1_1world_1_1_world_a87ba45ab8e3980e192655a0d99645e3e}
+Adds the hurt entity.
+
+
+\begin{DoxyParams}{Parameters}
+{\em v} & the v \\
+\hline
+\end{DoxyParams}
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_a87ba45ab8e3980e192655a0d99645e3e_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_world_a03c55437171cf7d0e77110c94470ed1e}{
+\index{jdungeon::core::world::World@{jdungeon::core::world::World}!clearView@{clearView}}
+\index{clearView@{clearView}!jdungeon::core::world::World@{jdungeon::core::world::World}}
+\subsubsection[{clearView}]{\setlength{\rightskip}{0pt plus 5cm}void jdungeon.core.world.World.clearView (
+\begin{DoxyParamCaption}
+\item[{{\bf Entity}}]{e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classjdungeon_1_1core_1_1world_1_1_world_a03c55437171cf7d0e77110c94470ed1e}
+Clear view within radius 1 for the entity e.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & the entity \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_a03c55437171cf7d0e77110c94470ed1e_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_a03c55437171cf7d0e77110c94470ed1e_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_world_a2f8dfacbf6031222382fd92ab1544ed2}{
+\index{jdungeon::core::world::World@{jdungeon::core::world::World}!clone@{clone}}
+\index{clone@{clone}!jdungeon::core::world::World@{jdungeon::core::world::World}}
+\subsubsection[{clone}]{\setlength{\rightskip}{0pt plus 5cm}Object jdungeon.core.world.World.clone (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)  throws CloneNotSupportedException }}
+\label{classjdungeon_1_1core_1_1world_1_1_world_a2f8dfacbf6031222382fd92ab1544ed2}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_a2f8dfacbf6031222382fd92ab1544ed2_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_a2f8dfacbf6031222382fd92ab1544ed2_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_world_a31524ff278ad7663579476d66f777f04}{
+\index{jdungeon::core::world::World@{jdungeon::core::world::World}!getBoss@{getBoss}}
+\index{getBoss@{getBoss}!jdungeon::core::world::World@{jdungeon::core::world::World}}
+\subsubsection[{getBoss}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Monster} jdungeon.core.world.World.getBoss (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_world_a31524ff278ad7663579476d66f777f04}
+Gets the boss.
+
+\begin{DoxyReturn}{Returns}
+the boss 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_a31524ff278ad7663579476d66f777f04_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_a31524ff278ad7663579476d66f777f04_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_world_a6208d22fa4bb88ab3f77eb8eac6bffce}{
+\index{jdungeon::core::world::World@{jdungeon::core::world::World}!getEntityInPoint@{getEntityInPoint}}
+\index{getEntityInPoint@{getEntityInPoint}!jdungeon::core::world::World@{jdungeon::core::world::World}}
+\subsubsection[{getEntityInPoint}]{\setlength{\rightskip}{0pt plus 5cm}public$<$T extends {\bf Entity}$>$ T \mbox{[}$\,$\mbox{]} jdungeon.core.world.World.getEntityInPoint (
+\begin{DoxyParamCaption}
+\item[{{\bf Point}}]{p, }
+\item[{T\mbox{[}$\,$\mbox{]}}]{t}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}package\mbox{]}}}}
+\label{classjdungeon_1_1core_1_1world_1_1_world_a6208d22fa4bb88ab3f77eb8eac6bffce}
+Gets the entity in point.
+
+
+\begin{DoxyParams}{Parameters}
+{\em $<$T$>$} & the generic type extending \hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} \\
+\hline
+{\em p} & the point \\
+\hline
+{\em t} & the array of type T \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the entity in point 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_a6208d22fa4bb88ab3f77eb8eac6bffce_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_a6208d22fa4bb88ab3f77eb8eac6bffce_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_world_ad6d8dbb5988041a57cad42aa4b9f729e}{
+\index{jdungeon::core::world::World@{jdungeon::core::world::World}!getHurtEntities@{getHurtEntities}}
+\index{getHurtEntities@{getHurtEntities}!jdungeon::core::world::World@{jdungeon::core::world::World}}
+\subsubsection[{getHurtEntities}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vulnerable} \mbox{[}$\,$\mbox{]} jdungeon.core.world.World.getHurtEntities (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_world_ad6d8dbb5988041a57cad42aa4b9f729e}
+Gets the hurt entities.
+
+\begin{DoxyReturn}{Returns}
+the hurt entities 
+\end{DoxyReturn}
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_world_a104fb8d3ad3b13724c6ad3da0a0ee549}{
+\index{jdungeon::core::world::World@{jdungeon::core::world::World}!getPlayer@{getPlayer}}
+\index{getPlayer@{getPlayer}!jdungeon::core::world::World@{jdungeon::core::world::World}}
+\subsubsection[{getPlayer}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Player} jdungeon.core.world.World.getPlayer (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_world_a104fb8d3ad3b13724c6ad3da0a0ee549}
+Gets the player.
+
+\begin{DoxyReturn}{Returns}
+the player 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_a104fb8d3ad3b13724c6ad3da0a0ee549_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_a104fb8d3ad3b13724c6ad3da0a0ee549_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_world_a1c3590e19ddc3b7c15652f340170d704}{
+\index{jdungeon::core::world::World@{jdungeon::core::world::World}!getX@{getX}}
+\index{getX@{getX}!jdungeon::core::world::World@{jdungeon::core::world::World}}
+\subsubsection[{getX}]{\setlength{\rightskip}{0pt plus 5cm}int jdungeon.core.world.World.getX (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_world_a1c3590e19ddc3b7c15652f340170d704}
+Gets the width.
+
+\begin{DoxyReturn}{Returns}
+the x 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_a1c3590e19ddc3b7c15652f340170d704_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_a1c3590e19ddc3b7c15652f340170d704_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_world_a8feef6fdb6341b8bbb0d4c3fedbee62e}{
+\index{jdungeon::core::world::World@{jdungeon::core::world::World}!getY@{getY}}
+\index{getY@{getY}!jdungeon::core::world::World@{jdungeon::core::world::World}}
+\subsubsection[{getY}]{\setlength{\rightskip}{0pt plus 5cm}int jdungeon.core.world.World.getY (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_world_a8feef6fdb6341b8bbb0d4c3fedbee62e}
+Gets the height.
+
+\begin{DoxyReturn}{Returns}
+the y 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_a8feef6fdb6341b8bbb0d4c3fedbee62e_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_a8feef6fdb6341b8bbb0d4c3fedbee62e_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_world_a4d6e096b179297412c7fef75d0342947}{
+\index{jdungeon::core::world::World@{jdungeon::core::world::World}!move@{move}}
+\index{move@{move}!jdungeon::core::world::World@{jdungeon::core::world::World}}
+\subsubsection[{move}]{\setlength{\rightskip}{0pt plus 5cm}boolean jdungeon.core.world.World.move (
+\begin{DoxyParamCaption}
+\item[{{\bf Entity}}]{e, }
+\item[{{\bf Point}}]{to}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classjdungeon_1_1core_1_1world_1_1_world_a4d6e096b179297412c7fef75d0342947}
+Move an entity to a new point.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & the entity \\
+\hline
+{\em to} & the new point \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true, if the entity moved 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_a4d6e096b179297412c7fef75d0342947_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_world_a9f93075e1e06302a569264709816619d}{
+\index{jdungeon::core::world::World@{jdungeon::core::world::World}!moveDelta@{moveDelta}}
+\index{moveDelta@{moveDelta}!jdungeon::core::world::World@{jdungeon::core::world::World}}
+\subsubsection[{moveDelta}]{\setlength{\rightskip}{0pt plus 5cm}boolean jdungeon.core.world.World.moveDelta (
+\begin{DoxyParamCaption}
+\item[{{\bf Entity}}]{e, }
+\item[{int}]{x, }
+\item[{int}]{y}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classjdungeon_1_1core_1_1world_1_1_world_a9f93075e1e06302a569264709816619d}
+Move an entity by a given delta.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & the entity \\
+\hline
+{\em x} & the x \\
+\hline
+{\em y} & the y \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true, if the entity moved 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_a9f93075e1e06302a569264709816619d_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_world_aea5bb0068ff3c20827be95bd061e43fb}{
+\index{jdungeon::core::world::World@{jdungeon::core::world::World}!notifyChange@{notifyChange}}
+\index{notifyChange@{notifyChange}!jdungeon::core::world::World@{jdungeon::core::world::World}}
+\subsubsection[{notifyChange}]{\setlength{\rightskip}{0pt plus 5cm}void jdungeon.core.world.World.notifyChange (
+\begin{DoxyParamCaption}
+\item[{{\bf Point}}]{p, }
+\item[{int}]{radius}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}package\mbox{]}}}}
+\label{classjdungeon_1_1core_1_1world_1_1_world_aea5bb0068ff3c20827be95bd061e43fb}
+Raise a map notification for all the points in the area defined by the point and radius.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & the p \\
+\hline
+{\em radius} & the radius \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_aea5bb0068ff3c20827be95bd061e43fb_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_world_a0a866cdfd25ddff71c49d8fc0486a96b}{
+\index{jdungeon::core::world::World@{jdungeon::core::world::World}!notifyChange@{notifyChange}}
+\index{notifyChange@{notifyChange}!jdungeon::core::world::World@{jdungeon::core::world::World}}
+\subsubsection[{notifyChange}]{\setlength{\rightskip}{0pt plus 5cm}void jdungeon.core.world.World.notifyChange (
+\begin{DoxyParamCaption}
+\item[{{\bf Point}}]{p}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}package\mbox{]}}}}
+\label{classjdungeon_1_1core_1_1world_1_1_world_a0a866cdfd25ddff71c49d8fc0486a96b}
+Raise a map update event for the point p to each observer.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & the point \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_a0a866cdfd25ddff71c49d8fc0486a96b_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_a0a866cdfd25ddff71c49d8fc0486a96b_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_world_a4dcd961470e7c74490c65bd5f87844ad}{
+\index{jdungeon::core::world::World@{jdungeon::core::world::World}!notifyChange@{notifyChange}}
+\index{notifyChange@{notifyChange}!jdungeon::core::world::World@{jdungeon::core::world::World}}
+\subsubsection[{notifyChange}]{\setlength{\rightskip}{0pt plus 5cm}void jdungeon.core.world.World.notifyChange (
+\begin{DoxyParamCaption}
+\item[{{\bf Entity}}]{e, }
+\item[{int}]{radius}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}package\mbox{]}}}}
+\label{classjdungeon_1_1core_1_1world_1_1_world_a4dcd961470e7c74490c65bd5f87844ad}
+Notify map status within a radius to listeners.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & the entity \\
+\hline
+{\em radius} & the radius of notification \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_a4dcd961470e7c74490c65bd5f87844ad_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_world_aeea974d8cdf4f908836b6b40ad72b7e3}{
+\index{jdungeon::core::world::World@{jdungeon::core::world::World}!notifyChange@{notifyChange}}
+\index{notifyChange@{notifyChange}!jdungeon::core::world::World@{jdungeon::core::world::World}}
+\subsubsection[{notifyChange}]{\setlength{\rightskip}{0pt plus 5cm}void jdungeon.core.world.World.notifyChange (
+\begin{DoxyParamCaption}
+\item[{{\bf Entity}}]{e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}package\mbox{]}}}}
+\label{classjdungeon_1_1core_1_1world_1_1_world_aeea974d8cdf4f908836b6b40ad72b7e3}
+Notify a map change where the \hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} e is located to listeners.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & the entity \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_aeea974d8cdf4f908836b6b40ad72b7e3_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_world_a304affa3d8a60755d18f840bbcd049d6}{
+\index{jdungeon::core::world::World@{jdungeon::core::world::World}!remove@{remove}}
+\index{remove@{remove}!jdungeon::core::world::World@{jdungeon::core::world::World}}
+\subsubsection[{remove}]{\setlength{\rightskip}{0pt plus 5cm}void jdungeon.core.world.World.remove (
+\begin{DoxyParamCaption}
+\item[{{\bf Entity}}]{e\mbox{[}$\,$\mbox{]}}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_world_a304affa3d8a60755d18f840bbcd049d6}
+Removes the entities from the map.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & the entities \\
+\hline
+\end{DoxyParams}
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_world_abadb5be57a1d6e6633a802d69420e931}{
+\index{jdungeon::core::world::World@{jdungeon::core::world::World}!remove@{remove}}
+\index{remove@{remove}!jdungeon::core::world::World@{jdungeon::core::world::World}}
+\subsubsection[{remove}]{\setlength{\rightskip}{0pt plus 5cm}void jdungeon.core.world.World.remove (
+\begin{DoxyParamCaption}
+\item[{{\bf Entity}}]{e}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_world_abadb5be57a1d6e6633a802d69420e931}
+Removes the entity.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & the entity \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_abadb5be57a1d6e6633a802d69420e931_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_abadb5be57a1d6e6633a802d69420e931_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_world_a3e93c0a5378e46a0e408810368927040}{
+\index{jdungeon::core::world::World@{jdungeon::core::world::World}!removeHurtEntity@{removeHurtEntity}}
+\index{removeHurtEntity@{removeHurtEntity}!jdungeon::core::world::World@{jdungeon::core::world::World}}
+\subsubsection[{removeHurtEntity}]{\setlength{\rightskip}{0pt plus 5cm}void jdungeon.core.world.World.removeHurtEntity (
+\begin{DoxyParamCaption}
+\item[{{\bf Vulnerable}}]{v}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}package\mbox{]}}}}
+\label{classjdungeon_1_1core_1_1world_1_1_world_a3e93c0a5378e46a0e408810368927040}
+Removes the hurt entity.
+
+
+\begin{DoxyParams}{Parameters}
+{\em v} & the v \\
+\hline
+\end{DoxyParams}
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_a3e93c0a5378e46a0e408810368927040_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_world_a2b0f5b8dfecc62c20ab3be6df0643da9}{
+\index{jdungeon::core::world::World@{jdungeon::core::world::World}!replace@{replace}}
+\index{replace@{replace}!jdungeon::core::world::World@{jdungeon::core::world::World}}
+\subsubsection[{replace}]{\setlength{\rightskip}{0pt plus 5cm}void jdungeon.core.world.World.replace (
+\begin{DoxyParamCaption}
+\item[{{\bf Entity}}]{oldEntity, }
+\item[{{\bf Entity}}]{newEntity}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_world_a2b0f5b8dfecc62c20ab3be6df0643da9}
+Replace an entity with another.
+
+
+\begin{DoxyParams}{Parameters}
+{\em oldEntity} & the old entity \\
+\hline
+{\em newEntity} & the new entity \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_a2b0f5b8dfecc62c20ab3be6df0643da9_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_a2b0f5b8dfecc62c20ab3be6df0643da9_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_world_a091011deaa7ef3e85a14d3d8acfa5d6e}{
+\index{jdungeon::core::world::World@{jdungeon::core::world::World}!subscribe@{subscribe}}
+\index{subscribe@{subscribe}!jdungeon::core::world::World@{jdungeon::core::world::World}}
+\subsubsection[{subscribe}]{\setlength{\rightskip}{0pt plus 5cm}void jdungeon.core.world.World.subscribe (
+\begin{DoxyParamCaption}
+\item[{{\bf MapObserver}}]{observer}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_world_a091011deaa7ef3e85a14d3d8acfa5d6e}
+Subscribe to map events.
+
+
+\begin{DoxyParams}{Parameters}
+{\em observer} & the observer \\
+\hline
+\end{DoxyParams}
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_a091011deaa7ef3e85a14d3d8acfa5d6e_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_world_a9ef8adc1ff22ccd025db1380dce3c308}{
+\index{jdungeon::core::world::World@{jdungeon::core::world::World}!syncEvent@{syncEvent}}
+\index{syncEvent@{syncEvent}!jdungeon::core::world::World@{jdungeon::core::world::World}}
+\subsubsection[{syncEvent}]{\setlength{\rightskip}{0pt plus 5cm}void jdungeon.core.world.World.syncEvent (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_world_a9ef8adc1ff22ccd025db1380dce3c308}
+This sync event is responsible of refreshing the state of a map. 
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_a9ef8adc1ff22ccd025db1380dce3c308_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_world_a9ef8adc1ff22ccd025db1380dce3c308_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_world_acf10ba5af090d902608f40674c84cb82}{
+\index{jdungeon::core::world::World@{jdungeon::core::world::World}!unsubscribe@{unsubscribe}}
+\index{unsubscribe@{unsubscribe}!jdungeon::core::world::World@{jdungeon::core::world::World}}
+\subsubsection[{unsubscribe}]{\setlength{\rightskip}{0pt plus 5cm}void jdungeon.core.world.World.unsubscribe (
+\begin{DoxyParamCaption}
+\item[{{\bf VulnerableObserver}}]{observer}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_world_acf10ba5af090d902608f40674c84cb82}
+Unsubscribe to map events.
+
+
+\begin{DoxyParams}{Parameters}
+{\em observer} & the observer \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/jdungeon/core/world/\hyperlink{_world_8java}{World.java}\end{DoxyCompactItemize}

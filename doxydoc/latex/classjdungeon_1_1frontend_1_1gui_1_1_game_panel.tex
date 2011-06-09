@@ -1,0 +1,156 @@
+\hypertarget{classjdungeon_1_1frontend_1_1gui_1_1_game_panel}{
+\section{jdungeon.frontend.gui.GamePanel Class Reference}
+\label{classjdungeon_1_1frontend_1_1gui_1_1_game_panel}\index{jdungeon::frontend::gui::GamePanel@{jdungeon::frontend::gui::GamePanel}}
+}
+
+
+Inheritance diagram for jdungeon.frontend.gui.GamePanel:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=244pt]{classjdungeon_1_1frontend_1_1gui_1_1_game_panel__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for jdungeon.frontend.gui.GamePanel:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=246pt]{classjdungeon_1_1frontend_1_1gui_1_1_game_panel__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjdungeon_1_1frontend_1_1gui_1_1_game_panel_a2411a4141e1a41d08b3165f47982753d}{GamePanel} (final int rows, final int \hyperlink{classjdungeon_1_1frontend_1_1gui_1_1_game_panel_aba784807153277ead51c3af9df110bbd}{columns}, final int cellSize, final \hyperlink{interfacejdungeon_1_1frontend_1_1gui_1_1_game_panel_listener}{GamePanelListener} listener, Color color)
+\item 
+void \hyperlink{classjdungeon_1_1frontend_1_1gui_1_1_game_panel_abbc1891b5fca5d12ffe8d5ca3cacf1cd}{put} (Image image, int row, int column)
+\item 
+void \hyperlink{classjdungeon_1_1frontend_1_1gui_1_1_game_panel_aaad23918d8ac09aa15007f21932ed06d}{clear} (int row, int column)
+\item 
+void \hyperlink{classjdungeon_1_1frontend_1_1gui_1_1_game_panel_afa811bf3d6906c3ed3d73fc5cfd6a3dc}{paint} (Graphics g)
+\end{DoxyCompactItemize}
+\subsection*{Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classjdungeon_1_1frontend_1_1gui_1_1_game_panel_aba784807153277ead51c3af9df110bbd}{columns}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Panel que representa una grilla de imágenes, siendo posible agregarle y quitarle imágenes. Asimismo, cuenta con una interfaz que permite a quien la utilice ser notificada cuando el usuario posiciona el mouse sobre una celda de la grilla. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjdungeon_1_1frontend_1_1gui_1_1_game_panel_a2411a4141e1a41d08b3165f47982753d}{
+\index{jdungeon::frontend::gui::GamePanel@{jdungeon::frontend::gui::GamePanel}!GamePanel@{GamePanel}}
+\index{GamePanel@{GamePanel}!jdungeon::frontend::gui::GamePanel@{jdungeon::frontend::gui::GamePanel}}
+\subsubsection[{GamePanel}]{\setlength{\rightskip}{0pt plus 5cm}jdungeon.frontend.gui.GamePanel.GamePanel (
+\begin{DoxyParamCaption}
+\item[{final int}]{rows, }
+\item[{final int}]{columns, }
+\item[{final int}]{cellSize, }
+\item[{final {\bf GamePanelListener}}]{listener, }
+\item[{Color}]{color}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1frontend_1_1gui_1_1_game_panel_a2411a4141e1a41d08b3165f47982753d}
+Crea un nuevo panel con las dimensiones indicadas.
+
+
+\begin{DoxyParams}{Parameters}
+{\em rows} & Cantidad de filas. \\
+\hline
+{\em columns} & Cantidad de columnas. \\
+\hline
+{\em cellSize} & Ancho y alto de cada imagen en píxeles. \\
+\hline
+{\em listener} & Listener que será notificado cuando el usuario se posicione sobre una celda de la grilla. \\
+\hline
+{\em color} & Color de fondo del panel. \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1frontend_1_1gui_1_1_game_panel_a2411a4141e1a41d08b3165f47982753d_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjdungeon_1_1frontend_1_1gui_1_1_game_panel_aaad23918d8ac09aa15007f21932ed06d}{
+\index{jdungeon::frontend::gui::GamePanel@{jdungeon::frontend::gui::GamePanel}!clear@{clear}}
+\index{clear@{clear}!jdungeon::frontend::gui::GamePanel@{jdungeon::frontend::gui::GamePanel}}
+\subsubsection[{clear}]{\setlength{\rightskip}{0pt plus 5cm}void jdungeon.frontend.gui.GamePanel.clear (
+\begin{DoxyParamCaption}
+\item[{int}]{row, }
+\item[{int}]{column}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1frontend_1_1gui_1_1_game_panel_aaad23918d8ac09aa15007f21932ed06d}
+Elimina la imagen ubicada en la fila y columna indicadas. 
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1frontend_1_1gui_1_1_game_panel_aaad23918d8ac09aa15007f21932ed06d_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1frontend_1_1gui_1_1_game_panel_afa811bf3d6906c3ed3d73fc5cfd6a3dc}{
+\index{jdungeon::frontend::gui::GamePanel@{jdungeon::frontend::gui::GamePanel}!paint@{paint}}
+\index{paint@{paint}!jdungeon::frontend::gui::GamePanel@{jdungeon::frontend::gui::GamePanel}}
+\subsubsection[{paint}]{\setlength{\rightskip}{0pt plus 5cm}void jdungeon.frontend.gui.GamePanel.paint (
+\begin{DoxyParamCaption}
+\item[{Graphics}]{g}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1frontend_1_1gui_1_1_game_panel_afa811bf3d6906c3ed3d73fc5cfd6a3dc}
+\hypertarget{classjdungeon_1_1frontend_1_1gui_1_1_game_panel_abbc1891b5fca5d12ffe8d5ca3cacf1cd}{
+\index{jdungeon::frontend::gui::GamePanel@{jdungeon::frontend::gui::GamePanel}!put@{put}}
+\index{put@{put}!jdungeon::frontend::gui::GamePanel@{jdungeon::frontend::gui::GamePanel}}
+\subsubsection[{put}]{\setlength{\rightskip}{0pt plus 5cm}void jdungeon.frontend.gui.GamePanel.put (
+\begin{DoxyParamCaption}
+\item[{Image}]{image, }
+\item[{int}]{row, }
+\item[{int}]{column}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1frontend_1_1gui_1_1_game_panel_abbc1891b5fca5d12ffe8d5ca3cacf1cd}
+Ubica una imagen en la fila y columna indicadas. 
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1frontend_1_1gui_1_1_game_panel_abbc1891b5fca5d12ffe8d5ca3cacf1cd_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classjdungeon_1_1frontend_1_1gui_1_1_game_panel_aba784807153277ead51c3af9df110bbd}{
+\index{jdungeon::frontend::gui::GamePanel@{jdungeon::frontend::gui::GamePanel}!columns@{columns}}
+\index{columns@{columns}!jdungeon::frontend::gui::GamePanel@{jdungeon::frontend::gui::GamePanel}}
+\subsubsection[{columns}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf jdungeon.frontend.gui.GamePanel.columns}\hspace{0.3cm}{\ttfamily  \mbox{[}package\mbox{]}}}}
+\label{classjdungeon_1_1frontend_1_1gui_1_1_game_panel_aba784807153277ead51c3af9df110bbd}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/jdungeon/frontend/gui/\hyperlink{_game_panel_8java}{GamePanel.java}\end{DoxyCompactItemize}

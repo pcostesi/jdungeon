@@ -1,0 +1,17 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a03c55437171cf7d0e77110c94470ed1e" title="jdungeon.core.world.World.clearView" alt="" coords="320,5,557,35"/>
+<area shape="rect" id="node7" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a4d6e096b179297412c7fef75d0342947" title="jdungeon.core.world.World.move" alt="" coords="333,59,544,88"/>
+<area shape="rect" id="node9" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a9f93075e1e06302a569264709816619d" title="jdungeon.core.world.World.moveDelta" alt="" coords="317,112,560,141"/>
+<area shape="rect" id="node11" href="$classjdungeon_1_1core_1_1world_1_1_board.html#a6baf039a7c209ae4b1bf4b3104e8fbd4" title="jdungeon.core.world.Board.neighbours" alt="" coords="317,165,560,195"/>
+<area shape="rect" id="node15" href="$classjdungeon_1_1core_1_1world_1_1_world.html#aeea974d8cdf4f908836b6b40ad72b7e3" title="jdungeon.core.world.World.notifyChange" alt="" coords="311,219,567,248"/>
+<area shape="rect" id="node17" href="$classjdungeon_1_1core_1_1world_1_1_world.html#abadb5be57a1d6e6633a802d69420e931" title="jdungeon.core.world.World.remove" alt="" coords="328,272,549,301"/>
+<area shape="rect" id="node25" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a2b0f5b8dfecc62c20ab3be6df0643da9" title="jdungeon.core.world.World.replace" alt="" coords="665,377,887,407"/>
+<area shape="rect" id="node31" href="$classjdungeon_1_1core_1_1world_1_1_board.html#a047b0ef20faff398e51e85d1b6059cbd" title="jdungeon.core.world.Board.replace" alt="" coords="328,376,549,405"/>
+<area shape="rect" id="node5" href="$classjdungeon_1_1core_1_1world_1_1_player.html#a8928df28dae4b6db028608f6dac561f4" title="jdungeon.core.world.Player.setWorld" alt="" coords="659,5,893,35"/>
+<area shape="rect" id="node13" href="$classjdungeon_1_1core_1_1world_1_1_board.html#aafddcf0e8d8fd18c4cde1bd74b668cc7" title="jdungeon.core.world.Board.move" alt="" coords="671,164,881,193"/>
+<area shape="rect" id="node19" href="$classjdungeon_1_1core_1_1world_1_1bonus_1_1_explorer_bonus.html#a9167c77fd3e0de84f72ad10403b2246a" title="jdungeon.core.world.bonus.ExplorerBonus.areaBuff" alt="" coords="617,217,935,247"/>
+<area shape="rect" id="node21" href="$classjdungeon_1_1core_1_1world_1_1bonus_1_1_strength_bonus.html#ad408870aee974a63a4cd9d802a523d35" title="jdungeon.core.world.bonus.StrengthBonus.buff" alt="" coords="629,271,923,300"/>
+<area shape="rect" id="node23" href="$classjdungeon_1_1core_1_1world_1_1bonus_1_1_health_bonus.html#ae951e5a939df28a8b3f1436c13e3953a" title="jdungeon.core.world.bonus.HealthBonus.buff" alt="" coords="635,324,917,353"/>
+<area shape="rect" id="node27" href="$classjdungeon_1_1core_1_1world_1_1_vulnerable.html#a16f60387f198bbe26aa12c0925fdc2d4" title="jdungeon.core.world.Vulnerable.die" alt="" coords="984,377,1208,407"/>
+<area shape="rect" id="node29" href="$classjdungeon_1_1core_1_1world_1_1_vulnerable.html#a5a5fd985229f2087e93869df0abc4f16" title="jdungeon.core.world.Vulnerable.hurtBy" alt="" coords="1256,377,1501,407"/>
+</map>

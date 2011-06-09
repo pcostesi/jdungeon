@@ -1,0 +1,19 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a31524ff278ad7663579476d66f777f04" title="jdungeon.core.world.World.getBoss" alt="" coords="339,187,565,216"/>
+<area shape="rect" id="node17" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a104fb8d3ad3b13724c6ad3da0a0ee549" title="jdungeon.core.world.World.getPlayer" alt="" coords="335,265,569,295"/>
+<area shape="rect" id="node28" href="$classjdungeon_1_1core_1_1world_1_1filter_1_1_board_filter.html#ada50e3d173f68645eb92e38f041ffa5f" title="jdungeon.core.world.filter.BoardFilter.toArray" alt="" coords="312,83,592,112"/>
+<area shape="rect" id="node5" href="$classjdungeon_1_1frontend_1_1_game.html#a36a352daddeb9a6823bb1e3565c94bd8" title="jdungeon.frontend.Game.load" alt="" coords="681,187,873,216"/>
+<area shape="rect" id="node7" href="$classjdungeon_1_1frontend_1_1_game.html#a995a4352abccfd549e5002f29c8746df" title="jdungeon.frontend.Game.NewGame" alt="" coords="1008,136,1237,165"/>
+<area shape="rect" id="node9" href="$classjdungeon_1_1core_1_1world_1_1_world.html#abadb5be57a1d6e6633a802d69420e931" title="jdungeon.core.world.World.remove" alt="" coords="667,291,888,320"/>
+<area shape="rect" id="node11" href="$classjdungeon_1_1core_1_1world_1_1bonus_1_1_explorer_bonus.html#a9167c77fd3e0de84f72ad10403b2246a" title="jdungeon.core.world.bonus.ExplorerBonus.areaBuff" alt="" coords="964,237,1281,267"/>
+<area shape="rect" id="node13" href="$classjdungeon_1_1core_1_1world_1_1bonus_1_1_strength_bonus.html#ad408870aee974a63a4cd9d802a523d35" title="jdungeon.core.world.bonus.StrengthBonus.buff" alt="" coords="976,291,1269,320"/>
+<area shape="rect" id="node15" href="$classjdungeon_1_1core_1_1world_1_1bonus_1_1_health_bonus.html#ae951e5a939df28a8b3f1436c13e3953a" title="jdungeon.core.world.bonus.HealthBonus.buff" alt="" coords="981,344,1264,373"/>
+<area shape="rect" id="node19" href="$classjdungeon_1_1frontend_1_1_data_panel.html#a88937e7a18c37a473afe3eee68b80512" title="jdungeon.frontend.DataPanel.createPlayer" alt="" coords="644,397,911,427"/>
+<area shape="rect" id="node23" href="$classjdungeon_1_1frontend_1_1_data_panel.html#a6b5abcbb052107a60ceb8e36a53b9349" title="jdungeon.frontend.DataPanel.event" alt="" coords="664,344,891,373"/>
+<area shape="rect" id="node21" href="$classjdungeon_1_1frontend_1_1_data_panel.html#a1b9a0f7541918ee38411ea16371f444a" title="jdungeon.frontend.DataPanel.DataPanel" alt="" coords="996,397,1249,427"/>
+<area shape="rect" id="node30" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a2f8dfacbf6031222382fd92ab1544ed2" title="jdungeon.core.world.World.clone" alt="" coords="672,83,883,112"/>
+<area shape="rect" id="node36" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a6208d22fa4bb88ab3f77eb8eac6bffce" title="jdungeon.core.world.World.getEntityInPoint" alt="" coords="641,5,913,35"/>
+<area shape="rect" id="node34" href="$classjdungeon_1_1frontend_1_1_game.html#ad9023872333040ed40b4bb85e4ab41bd" title="jdungeon.frontend.Game.restart" alt="" coords="1020,83,1225,112"/>
+<area shape="rect" id="node38" href="$classjdungeon_1_1frontend_1_1_data_panel.html#a360c0ccfc1681743d6a5d8f3c01087ee" title="jdungeon.frontend.DataPanel.update" alt="" coords="1007,5,1239,35"/>
+<area shape="rect" id="node40" href="$classjdungeon_1_1frontend_1_1_game.html#a6e33d7cb1ee618b6995d3fd1b25edcf3" title="jdungeon.frontend.Game.updatePoint" alt="" coords="1331,5,1568,35"/>
+</map>

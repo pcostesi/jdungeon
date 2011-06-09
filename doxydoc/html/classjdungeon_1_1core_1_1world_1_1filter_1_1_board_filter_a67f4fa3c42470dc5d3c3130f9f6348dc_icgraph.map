@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classjdungeon_1_1core_1_1world_1_1filter_1_1_board_filter.html#a19d29f8693c5eb64c196b1eecb8b8de4" title="jdungeon.core.world.filter.BoardFilter.noPointsContaining" alt="" coords="321,72,671,101"/>
+<area shape="rect" id="node5" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a6208d22fa4bb88ab3f77eb8eac6bffce" title="jdungeon.core.world.World.getEntityInPoint" alt="" coords="721,32,993,61"/>
+<area shape="rect" id="node11" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a9ef8adc1ff22ccd025db1380dce3c308" title="jdungeon.core.world.World.syncEvent" alt="" coords="736,112,979,141"/>
+<area shape="rect" id="node7" href="$classjdungeon_1_1frontend_1_1_data_panel.html#a360c0ccfc1681743d6a5d8f3c01087ee" title="jdungeon.frontend.DataPanel.update" alt="" coords="1055,5,1287,35"/>
+<area shape="rect" id="node9" href="$classjdungeon_1_1frontend_1_1_game.html#a6e33d7cb1ee618b6995d3fd1b25edcf3" title="jdungeon.frontend.Game.updatePoint" alt="" coords="1347,5,1584,35"/>
+<area shape="rect" id="node13" href="$classjdungeon_1_1frontend_1_1_game.html#a198317532f26dd32e7f47e9719c439fb" title="jdungeon.frontend.Game.onBossDeath" alt="" coords="1048,59,1293,88"/>
+<area shape="rect" id="node15" href="$classjdungeon_1_1frontend_1_1_game.html#a71336ffad47200e1653dfc258359103c" title="jdungeon.frontend.Game.onPlayerDeath" alt="" coords="1044,112,1297,141"/>
+<area shape="rect" id="node17" href="$classjdungeon_1_1frontend_1_1_game.html#ad9023872333040ed40b4bb85e4ab41bd" title="jdungeon.frontend.Game.restart" alt="" coords="1363,163,1568,192"/>
+<area shape="rect" id="node19" href="$classjdungeon_1_1frontend_1_1_game.html#a9163c3e392b84832fae53080a32cc7a7" title="jdungeon.frontend.Game.startGame" alt="" coords="1056,216,1285,245"/>
+<area shape="rect" id="node21" href="$classjdungeon_1_1frontend_1_1_game.html#a36a352daddeb9a6823bb1e3565c94bd8" title="jdungeon.frontend.Game.load" alt="" coords="1369,216,1561,245"/>
+<area shape="rect" id="node23" href="$classjdungeon_1_1frontend_1_1_game.html#a995a4352abccfd549e5002f29c8746df" title="jdungeon.frontend.Game.NewGame" alt="" coords="1351,269,1580,299"/>
+</map>

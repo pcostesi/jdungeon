@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classjdungeon_1_1frontend_1_1_data_panel.html#add76416769f5544c27dfee51e2d8d0d5" title="jdungeon.frontend.DataPanel.createEnemy" alt="" coords="329,5,599,35"/>
+<area shape="rect" id="node11" href="$classjdungeon_1_1frontend_1_1_data_panel.html#a88937e7a18c37a473afe3eee68b80512" title="jdungeon.frontend.DataPanel.createPlayer" alt="" coords="331,59,597,88"/>
+<area shape="rect" id="node15" href="$classjdungeon_1_1frontend_1_1_data_panel.html#a6b5abcbb052107a60ceb8e36a53b9349" title="jdungeon.frontend.DataPanel.event" alt="" coords="351,112,577,141"/>
+<area shape="rect" id="node17" href="$classjdungeon_1_1core_1_1world_1_1_vulnerable.html#a5a5fd985229f2087e93869df0abc4f16" title="jdungeon.core.world.Vulnerable.hurtBy" alt="" coords="341,165,587,195"/>
+<area shape="rect" id="node5" href="$classjdungeon_1_1frontend_1_1_data_panel.html#a9ab257ec615440595a5b2cad8059ed06" title="jdungeon.frontend.DataPanel.showMonster" alt="" coords="648,5,920,35"/>
+<area shape="rect" id="node7" href="$classjdungeon_1_1frontend_1_1_data_panel.html#a360c0ccfc1681743d6a5d8f3c01087ee" title="jdungeon.frontend.DataPanel.update" alt="" coords="969,5,1201,35"/>
+<area shape="rect" id="node9" href="$classjdungeon_1_1frontend_1_1_game.html#a6e33d7cb1ee618b6995d3fd1b25edcf3" title="jdungeon.frontend.Game.updatePoint" alt="" coords="1251,5,1488,35"/>
+<area shape="rect" id="node13" href="$classjdungeon_1_1frontend_1_1_data_panel.html#a1b9a0f7541918ee38411ea16371f444a" title="jdungeon.frontend.DataPanel.DataPanel" alt="" coords="657,59,911,88"/>
+</map>

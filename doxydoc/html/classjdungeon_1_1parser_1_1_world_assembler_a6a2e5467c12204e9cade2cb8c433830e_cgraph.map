@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classjdungeon_1_1parser_1_1_world_assembler.html#ae0b694e0b28f0c1ecfdbd6e7175b6906" title="jdungeon.parser.WorldAssembler.worldCreator" alt="" coords="369,139,660,168"/>
+<area shape="rect" id="node5" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a212b2befe7519c32de5a274cf962cf07" title="jdungeon.core.world.World.add" alt="" coords="760,5,960,35"/>
+<area shape="rect" id="node7" href="$classjdungeon_1_1parser_1_1_game_factory.html#ab7867bdb9b3df42fffabb8d693f1a717" title="jdungeon.parser.GameFactory.createEntity" alt="" coords="725,59,995,88"/>
+<area shape="rect" id="node9" href="$classjdungeon_1_1parser_1_1_game_factory.html#adad6728765ff44fce17607f063d5700e" title="jdungeon.parser.GameFactory.getEntityPosition" alt="" coords="711,112,1009,141"/>
+<area shape="rect" id="node11" href="$classjdungeon_1_1parser_1_1_game_reader.html#a8278eb6e4aa5796713b4a68efa54715e" title="jdungeon.parser.GameReader.getGameData" alt="" coords="720,165,1000,195"/>
+<area shape="rect" id="node18" href="$classjdungeon_1_1parser_1_1_game_reader.html#afa05cd68baf698bfc37dccc7156e7990" title="jdungeon.parser.GameReader.newGameReader" alt="" coords="711,219,1009,248"/>
+<area shape="rect" id="node20" href="$classjdungeon_1_1core_1_1world_1_1_entity.html#a18211babd569604fb862ee40e6eff9b8" title="jdungeon.core.world.Entity.setWorld" alt="" coords="744,272,976,301"/>
+<area shape="rect" id="node13" href="$classjdungeon_1_1parser_1_1_game_reader.html#a9e01057517fc3ecd76691a8594dd2b13" title="jdungeon.parser.GameReader.close" alt="" coords="1388,167,1617,196"/>
+<area shape="rect" id="node15" href="$classjdungeon_1_1parser_1_1_game_reader.html#a807fc4acaf4d25f99be453a13ddc75f4" title="jdungeon.parser.GameReader.getGameData" alt="" coords="1059,192,1339,221"/>
+</map>

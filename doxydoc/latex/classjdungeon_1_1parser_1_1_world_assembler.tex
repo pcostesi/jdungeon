@@ -1,0 +1,267 @@
+\hypertarget{classjdungeon_1_1parser_1_1_world_assembler}{
+\section{jdungeon.parser.WorldAssembler Class Reference}
+\label{classjdungeon_1_1parser_1_1_world_assembler}\index{jdungeon::parser::WorldAssembler@{jdungeon::parser::WorldAssembler}}
+}
+
+
+Collaboration diagram for jdungeon.parser.WorldAssembler:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=600pt]{classjdungeon_1_1parser_1_1_world_assembler__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries WorldFileFilter}
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{classjdungeon_1_1core_1_1world_1_1_world}{World} \hyperlink{classjdungeon_1_1parser_1_1_world_assembler_a6a2e5467c12204e9cade2cb8c433830e}{createNewWorld} (String gameWorldName)  throws FileNotFoundException, CorruptFileException 
+\item 
+static \hyperlink{classjdungeon_1_1core_1_1world_1_1_world}{World} \hyperlink{classjdungeon_1_1parser_1_1_world_assembler_ae0b694e0b28f0c1ecfdbd6e7175b6906}{worldCreator} (File gameWorldFile)  throws FileNotFoundException, CorruptFileException 
+\item 
+static Set$<$ String $>$ \hyperlink{classjdungeon_1_1parser_1_1_world_assembler_aef1d683ca7ffb870302050b2847b060d}{getWorldList} ()  throws NoMapsInFolderException 
+\item 
+static Set$<$ String $>$ \hyperlink{classjdungeon_1_1parser_1_1_world_assembler_ab36d66b4d4eb650e942b1a2a2ad6f9ad}{worldList} (File worldDir)  throws NoMapsInFolderException 
+\item 
+static void \hyperlink{classjdungeon_1_1parser_1_1_world_assembler_ae732a474d80eaf90d97737593d4a9dcf}{saveGame} (String name, File directory, \hyperlink{classjdungeon_1_1core_1_1world_1_1_world}{World} gameWorld)  throws FailureException 
+\item 
+static \hyperlink{classjdungeon_1_1core_1_1world_1_1_world}{World} \hyperlink{classjdungeon_1_1parser_1_1_world_assembler_a430b56ec55f4b744079592d373638d49}{loadGame} (File filePath)  throws FailureException 
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjdungeon_1_1parser_1_1_world_assembler_a6a2e5467c12204e9cade2cb8c433830e}{
+\index{jdungeon::parser::WorldAssembler@{jdungeon::parser::WorldAssembler}!createNewWorld@{createNewWorld}}
+\index{createNewWorld@{createNewWorld}!jdungeon::parser::WorldAssembler@{jdungeon::parser::WorldAssembler}}
+\subsubsection[{createNewWorld}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf World} jdungeon.parser.WorldAssembler.createNewWorld (
+\begin{DoxyParamCaption}
+\item[{String}]{gameWorldName}
+\end{DoxyParamCaption}
+)  throws FileNotFoundException, {\bf CorruptFileException} \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classjdungeon_1_1parser_1_1_world_assembler_a6a2e5467c12204e9cade2cb8c433830e}
+Wrapper function for worldCreator, uses the input String to obtain the File to call worldCreator, from gameWorldList Must have invoked: \hyperlink{classjdungeon_1_1parser_1_1_world_assembler_aef1d683ca7ffb870302050b2847b060d}{getWorldList()}
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \hyperlink{classjdungeon_1_1parser_1_1_corrupt_file_exception}{CorruptFileException}} & if the file is invalid \\
+\hline
+{\em FileNotFoundException} & if an IOError occurs \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxySeeAlso}{See also}
+jdungeon.parser.getWorldList 
+\end{DoxySeeAlso}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1parser_1_1_world_assembler_a6a2e5467c12204e9cade2cb8c433830e_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1parser_1_1_world_assembler_a6a2e5467c12204e9cade2cb8c433830e_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1parser_1_1_world_assembler_aef1d683ca7ffb870302050b2847b060d}{
+\index{jdungeon::parser::WorldAssembler@{jdungeon::parser::WorldAssembler}!getWorldList@{getWorldList}}
+\index{getWorldList@{getWorldList}!jdungeon::parser::WorldAssembler@{jdungeon::parser::WorldAssembler}}
+\subsubsection[{getWorldList}]{\setlength{\rightskip}{0pt plus 5cm}static Set$<$String$>$ jdungeon.parser.WorldAssembler.getWorldList (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)  throws {\bf NoMapsInFolderException} \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classjdungeon_1_1parser_1_1_world_assembler_aef1d683ca7ffb870302050b2847b060d}
+Wrapper function for worldList, gives worldList the directory from where it has to obtain the worlds name.
+
+\begin{DoxyReturn}{Returns}
+Set$<$String$>$ 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \hyperlink{classjdungeon_1_1parser_1_1_no_maps_in_folder_exception}{NoMapsInFolderException}} & if there are no maps or no valid maps in the resources folder \\
+\hline
+\end{DoxyExceptions}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1parser_1_1_world_assembler_aef1d683ca7ffb870302050b2847b060d_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1parser_1_1_world_assembler_aef1d683ca7ffb870302050b2847b060d_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1parser_1_1_world_assembler_a430b56ec55f4b744079592d373638d49}{
+\index{jdungeon::parser::WorldAssembler@{jdungeon::parser::WorldAssembler}!loadGame@{loadGame}}
+\index{loadGame@{loadGame}!jdungeon::parser::WorldAssembler@{jdungeon::parser::WorldAssembler}}
+\subsubsection[{loadGame}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf World} jdungeon.parser.WorldAssembler.loadGame (
+\begin{DoxyParamCaption}
+\item[{File}]{filePath}
+\end{DoxyParamCaption}
+)  throws {\bf FailureException} \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classjdungeon_1_1parser_1_1_world_assembler_a430b56ec55f4b744079592d373638d49}
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1parser_1_1_world_assembler_a430b56ec55f4b744079592d373638d49_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1parser_1_1_world_assembler_ae732a474d80eaf90d97737593d4a9dcf}{
+\index{jdungeon::parser::WorldAssembler@{jdungeon::parser::WorldAssembler}!saveGame@{saveGame}}
+\index{saveGame@{saveGame}!jdungeon::parser::WorldAssembler@{jdungeon::parser::WorldAssembler}}
+\subsubsection[{saveGame}]{\setlength{\rightskip}{0pt plus 5cm}static void jdungeon.parser.WorldAssembler.saveGame (
+\begin{DoxyParamCaption}
+\item[{String}]{name, }
+\item[{File}]{directory, }
+\item[{{\bf World}}]{gameWorld}
+\end{DoxyParamCaption}
+)  throws {\bf FailureException} \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classjdungeon_1_1parser_1_1_world_assembler_ae732a474d80eaf90d97737593d4a9dcf}
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1parser_1_1_world_assembler_ae732a474d80eaf90d97737593d4a9dcf_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1parser_1_1_world_assembler_ae0b694e0b28f0c1ecfdbd6e7175b6906}{
+\index{jdungeon::parser::WorldAssembler@{jdungeon::parser::WorldAssembler}!worldCreator@{worldCreator}}
+\index{worldCreator@{worldCreator}!jdungeon::parser::WorldAssembler@{jdungeon::parser::WorldAssembler}}
+\subsubsection[{worldCreator}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf World} jdungeon.parser.WorldAssembler.worldCreator (
+\begin{DoxyParamCaption}
+\item[{File}]{gameWorldFile}
+\end{DoxyParamCaption}
+)  throws FileNotFoundException, {\bf CorruptFileException} \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classjdungeon_1_1parser_1_1_world_assembler_ae0b694e0b28f0c1ecfdbd6e7175b6906}
+Parses the map file, creating all the map entities, the map itself and validating the data received.
+
+
+\begin{DoxyParams}{Parameters}
+{\em gameWorldFile} & a String containing the World name.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \hyperlink{classjdungeon_1_1parser_1_1_corrupt_file_exception}{CorruptFileException}} & if the file is invalid \\
+\hline
+{\em FileNotFoundException} & if an IOError occurs\\
+\hline
+\end{DoxyExceptions}
+\begin{DoxySeeAlso}{See also}
+jdungeon.parser.getWorldList 
+\end{DoxySeeAlso}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1parser_1_1_world_assembler_ae0b694e0b28f0c1ecfdbd6e7175b6906_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1parser_1_1_world_assembler_ae0b694e0b28f0c1ecfdbd6e7175b6906_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1parser_1_1_world_assembler_ab36d66b4d4eb650e942b1a2a2ad6f9ad}{
+\index{jdungeon::parser::WorldAssembler@{jdungeon::parser::WorldAssembler}!worldList@{worldList}}
+\index{worldList@{worldList}!jdungeon::parser::WorldAssembler@{jdungeon::parser::WorldAssembler}}
+\subsubsection[{worldList}]{\setlength{\rightskip}{0pt plus 5cm}static Set$<$String$>$ jdungeon.parser.WorldAssembler.worldList (
+\begin{DoxyParamCaption}
+\item[{File}]{worldDir}
+\end{DoxyParamCaption}
+)  throws {\bf NoMapsInFolderException} \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classjdungeon_1_1parser_1_1_world_assembler_ab36d66b4d4eb650e942b1a2a2ad6f9ad}
+Parses all .board files in the resources folder, obtaining the Worlds names.It stores a link between the file and the World name returns a Set$<$Strings$>$ with the names of the Worlds. If there are 2 maps with the same name, it will only register the first one
+
+\begin{DoxyReturn}{Returns}
+Set$<$String$>$
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \hyperlink{classjdungeon_1_1parser_1_1_no_maps_in_folder_exception}{NoMapsInFolderException}} & if there are no maps or no valid maps in the resources folder \\
+\hline
+\end{DoxyExceptions}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1parser_1_1_world_assembler_ab36d66b4d4eb650e942b1a2a2ad6f9ad_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1parser_1_1_world_assembler_ab36d66b4d4eb650e942b1a2a2ad6f9ad_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/jdungeon/parser/\hyperlink{_world_assembler_8java}{WorldAssembler.java}\end{DoxyCompactItemize}

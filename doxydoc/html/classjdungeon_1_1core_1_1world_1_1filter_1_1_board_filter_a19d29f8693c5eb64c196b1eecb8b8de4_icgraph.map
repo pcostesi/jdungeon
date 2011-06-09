@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a6208d22fa4bb88ab3f77eb8eac6bffce" title="jdungeon.core.world.World.getEntityInPoint" alt="" coords="407,32,679,61"/>
+<area shape="rect" id="node9" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a9ef8adc1ff22ccd025db1380dce3c308" title="jdungeon.core.world.World.syncEvent" alt="" coords="421,112,664,141"/>
+<area shape="rect" id="node5" href="$classjdungeon_1_1frontend_1_1_data_panel.html#a360c0ccfc1681743d6a5d8f3c01087ee" title="jdungeon.frontend.DataPanel.update" alt="" coords="740,5,972,35"/>
+<area shape="rect" id="node7" href="$classjdungeon_1_1frontend_1_1_game.html#a6e33d7cb1ee618b6995d3fd1b25edcf3" title="jdungeon.frontend.Game.updatePoint" alt="" coords="1032,5,1269,35"/>
+<area shape="rect" id="node11" href="$classjdungeon_1_1frontend_1_1_game.html#a198317532f26dd32e7f47e9719c439fb" title="jdungeon.frontend.Game.onBossDeath" alt="" coords="733,59,979,88"/>
+<area shape="rect" id="node13" href="$classjdungeon_1_1frontend_1_1_game.html#a71336ffad47200e1653dfc258359103c" title="jdungeon.frontend.Game.onPlayerDeath" alt="" coords="729,112,983,141"/>
+<area shape="rect" id="node15" href="$classjdungeon_1_1frontend_1_1_game.html#ad9023872333040ed40b4bb85e4ab41bd" title="jdungeon.frontend.Game.restart" alt="" coords="1048,163,1253,192"/>
+<area shape="rect" id="node17" href="$classjdungeon_1_1frontend_1_1_game.html#a9163c3e392b84832fae53080a32cc7a7" title="jdungeon.frontend.Game.startGame" alt="" coords="741,216,971,245"/>
+<area shape="rect" id="node19" href="$classjdungeon_1_1frontend_1_1_game.html#a36a352daddeb9a6823bb1e3565c94bd8" title="jdungeon.frontend.Game.load" alt="" coords="1055,216,1247,245"/>
+<area shape="rect" id="node21" href="$classjdungeon_1_1frontend_1_1_game.html#a995a4352abccfd549e5002f29c8746df" title="jdungeon.frontend.Game.NewGame" alt="" coords="1036,269,1265,299"/>
+</map>

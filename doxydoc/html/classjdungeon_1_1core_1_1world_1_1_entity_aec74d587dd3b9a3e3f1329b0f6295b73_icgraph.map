@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classjdungeon_1_1core_1_1world_1_1bonus_1_1_explorer_bonus.html#a9167c77fd3e0de84f72ad10403b2246a" title="jdungeon.core.world.bonus.ExplorerBonus.areaBuff" alt="" coords="287,5,604,35"/>
+<area shape="rect" id="node5" href="$classjdungeon_1_1core_1_1world_1_1bonus_1_1_strength_bonus.html#ad408870aee974a63a4cd9d802a523d35" title="jdungeon.core.world.bonus.StrengthBonus.buff" alt="" coords="299,59,592,88"/>
+<area shape="rect" id="node7" href="$classjdungeon_1_1core_1_1world_1_1bonus_1_1_health_bonus.html#ae951e5a939df28a8b3f1436c13e3953a" title="jdungeon.core.world.bonus.HealthBonus.buff" alt="" coords="653,151,936,180"/>
+<area shape="rect" id="node9" href="$classjdungeon_1_1core_1_1world_1_1_vulnerable.html#a16f60387f198bbe26aa12c0925fdc2d4" title="jdungeon.core.world.Vulnerable.die" alt="" coords="333,216,557,245"/>
+<area shape="rect" id="node11" href="$classjdungeon_1_1core_1_1world_1_1_vulnerable.html#a5a5fd985229f2087e93869df0abc4f16" title="jdungeon.core.world.Vulnerable.hurtBy" alt="" coords="672,229,917,259"/>
+<area shape="rect" id="node13" href="$classjdungeon_1_1core_1_1world_1_1_vulnerable.html#a617c57277ccac3409bc686f94fa92ea5" title="jdungeon.core.world.Vulnerable.heal" alt="" coords="331,163,560,192"/>
+</map>

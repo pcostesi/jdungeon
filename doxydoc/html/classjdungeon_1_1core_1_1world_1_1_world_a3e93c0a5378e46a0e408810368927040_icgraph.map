@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classjdungeon_1_1core_1_1world_1_1_vulnerable.html#a617c57277ccac3409bc686f94fa92ea5" title="jdungeon.core.world.Vulnerable.heal" alt="" coords="344,5,573,35"/>
+<area shape="rect" id="node7" href="$classjdungeon_1_1core_1_1world_1_1_vulnerable.html#a5a5fd985229f2087e93869df0abc4f16" title="jdungeon.core.world.Vulnerable.hurtBy" alt="" coords="336,59,581,88"/>
+<area shape="rect" id="node5" href="$classjdungeon_1_1core_1_1world_1_1bonus_1_1_health_bonus.html#ae951e5a939df28a8b3f1436c13e3953a" title="jdungeon.core.world.bonus.HealthBonus.buff" alt="" coords="629,5,912,35"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$classjdungeon_1_1frontend_1_1gui_1_1_game_panel.html" title="{jdungeon.frontend.gui.GamePanel\n|~ columns\l&#45; rows\l&#45; cellSize\l&#45; color\l&#45; images\l|+ GamePanel()\l+ put()\l+ clear()\l+ paint()\l}" alt="" coords="8,310,227,517"/>
+<area shape="rect" id="node10" href="$classjdungeon_1_1frontend_1_1_basic_images.html" title="{jdungeon.frontend.BasicImages\n|&#45; map\l|+ BasicImages()\l+ GiveImage()\l}" alt="" coords="251,362,456,465"/>
+<area shape="rect" id="node16" href="$interfacejdungeon_1_1frontend_1_1_g_u_i.html" title="{jdungeon.frontend.GUI\n||+ NewGame()\l+ save()\l+ load()\l+ updatePoint()\l+ quit()\l+ end()\l+ restart()\l}" alt="" coords="480,319,632,508"/>
+</map>

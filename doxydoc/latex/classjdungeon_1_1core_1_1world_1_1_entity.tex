@@ -1,0 +1,207 @@
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_entity}{
+\section{jdungeon.core.world.Entity Class Reference}
+\label{classjdungeon_1_1core_1_1world_1_1_entity}\index{jdungeon::core::world::Entity@{jdungeon::core::world::Entity}}
+}
+
+
+Inheritance diagram for jdungeon.core.world.Entity:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_entity__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for jdungeon.core.world.Entity:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=600pt]{classjdungeon_1_1core_1_1world_1_1_entity__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classjdungeon_1_1core_1_1world_1_1_entity_a18211babd569604fb862ee40e6eff9b8}{setWorld} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_world}{World} w)
+\item 
+\hyperlink{classjdungeon_1_1core_1_1world_1_1_world}{World} \hyperlink{classjdungeon_1_1core_1_1world_1_1_entity_aec74d587dd3b9a3e3f1329b0f6295b73}{getWorld} ()
+\item 
+boolean \hyperlink{classjdungeon_1_1core_1_1world_1_1_entity_ab1416ea34d958af08b0712eff91c7982}{hitBy} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} e)
+\item 
+boolean \hyperlink{classjdungeon_1_1core_1_1world_1_1_entity_ab3bfa26ddf39d9f3e2c69b8a33c8dd6a}{hitsTo} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} e)
+\item 
+void \hyperlink{classjdungeon_1_1core_1_1world_1_1_entity_ad2961935a2eef28553a1d65f7653280c}{near} (\hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity} e)
+\item 
+Object \hyperlink{classjdungeon_1_1core_1_1world_1_1_entity_a2ceb3cd178bb951b86cc9d6e429f738d}{clone} ()  throws CloneNotSupportedException 
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The Class \hyperlink{classjdungeon_1_1core_1_1world_1_1_entity}{Entity}. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_entity_a2ceb3cd178bb951b86cc9d6e429f738d}{
+\index{jdungeon::core::world::Entity@{jdungeon::core::world::Entity}!clone@{clone}}
+\index{clone@{clone}!jdungeon::core::world::Entity@{jdungeon::core::world::Entity}}
+\subsubsection[{clone}]{\setlength{\rightskip}{0pt plus 5cm}Object jdungeon.core.world.Entity.clone (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)  throws CloneNotSupportedException }}
+\label{classjdungeon_1_1core_1_1world_1_1_entity_a2ceb3cd178bb951b86cc9d6e429f738d}
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_entity_a2ceb3cd178bb951b86cc9d6e429f738d_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_entity_aec74d587dd3b9a3e3f1329b0f6295b73}{
+\index{jdungeon::core::world::Entity@{jdungeon::core::world::Entity}!getWorld@{getWorld}}
+\index{getWorld@{getWorld}!jdungeon::core::world::Entity@{jdungeon::core::world::Entity}}
+\subsubsection[{getWorld}]{\setlength{\rightskip}{0pt plus 5cm}{\bf World} jdungeon.core.world.Entity.getWorld (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_entity_aec74d587dd3b9a3e3f1329b0f6295b73}
+Gets the world.
+
+\begin{DoxyReturn}{Returns}
+the world 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_entity_aec74d587dd3b9a3e3f1329b0f6295b73_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_entity_ab1416ea34d958af08b0712eff91c7982}{
+\index{jdungeon::core::world::Entity@{jdungeon::core::world::Entity}!hitBy@{hitBy}}
+\index{hitBy@{hitBy}!jdungeon::core::world::Entity@{jdungeon::core::world::Entity}}
+\subsubsection[{hitBy}]{\setlength{\rightskip}{0pt plus 5cm}boolean jdungeon.core.world.Entity.hitBy (
+\begin{DoxyParamCaption}
+\item[{{\bf Entity}}]{e}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_entity_ab1416ea34d958af08b0712eff91c7982}
+This handler gets called when hit by an entity.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & the entity \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true, if does not collide 
+\end{DoxyReturn}
+
+
+Reimplemented in \hyperlink{classjdungeon_1_1core_1_1world_1_1bonus_1_1_bonus_a9684d0e023504c4643c8776d0592a27e}{jdungeon.core.world.bonus.Bonus}, \hyperlink{classjdungeon_1_1core_1_1world_1_1scenery_1_1_wall_a06739d9d6844918017ab281a41f08910}{jdungeon.core.world.scenery.Wall}, and \hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable_a51cba2942f2b57bdb39b4f69ffd16241}{jdungeon.core.world.Vulnerable}.
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_entity_ab3bfa26ddf39d9f3e2c69b8a33c8dd6a}{
+\index{jdungeon::core::world::Entity@{jdungeon::core::world::Entity}!hitsTo@{hitsTo}}
+\index{hitsTo@{hitsTo}!jdungeon::core::world::Entity@{jdungeon::core::world::Entity}}
+\subsubsection[{hitsTo}]{\setlength{\rightskip}{0pt plus 5cm}boolean jdungeon.core.world.Entity.hitsTo (
+\begin{DoxyParamCaption}
+\item[{{\bf Entity}}]{e}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_entity_ab3bfa26ddf39d9f3e2c69b8a33c8dd6a}
+This handler gets called when this object hits another entity.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & the entity \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true, if does not collide 
+\end{DoxyReturn}
+
+
+Reimplemented in \hyperlink{classjdungeon_1_1core_1_1world_1_1_vulnerable_a622ad6fd715b134f6508e000eb7b4785}{jdungeon.core.world.Vulnerable}.
+
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_entity_ab3bfa26ddf39d9f3e2c69b8a33c8dd6a_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_entity_ad2961935a2eef28553a1d65f7653280c}{
+\index{jdungeon::core::world::Entity@{jdungeon::core::world::Entity}!near@{near}}
+\index{near@{near}!jdungeon::core::world::Entity@{jdungeon::core::world::Entity}}
+\subsubsection[{near}]{\setlength{\rightskip}{0pt plus 5cm}void jdungeon.core.world.Entity.near (
+\begin{DoxyParamCaption}
+\item[{{\bf Entity}}]{e}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_entity_ad2961935a2eef28553a1d65f7653280c}
+This handler gets called when an entity is near this object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & the entity \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \hyperlink{classjdungeon_1_1core_1_1world_1_1bonus_1_1_bonus_a08c3d899fc2086987da644d425e7edef}{jdungeon.core.world.bonus.Bonus}.
+
+\hypertarget{classjdungeon_1_1core_1_1world_1_1_entity_a18211babd569604fb862ee40e6eff9b8}{
+\index{jdungeon::core::world::Entity@{jdungeon::core::world::Entity}!setWorld@{setWorld}}
+\index{setWorld@{setWorld}!jdungeon::core::world::Entity@{jdungeon::core::world::Entity}}
+\subsubsection[{setWorld}]{\setlength{\rightskip}{0pt plus 5cm}void jdungeon.core.world.Entity.setWorld (
+\begin{DoxyParamCaption}
+\item[{{\bf World}}]{w}
+\end{DoxyParamCaption}
+)}}
+\label{classjdungeon_1_1core_1_1world_1_1_entity_a18211babd569604fb862ee40e6eff9b8}
+Sets the world.
+
+
+\begin{DoxyParams}{Parameters}
+{\em w} & the new world \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \hyperlink{classjdungeon_1_1core_1_1world_1_1_player_a8928df28dae4b6db028608f6dac561f4}{jdungeon.core.world.Player}.
+
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1core_1_1world_1_1_entity_a18211babd569604fb862ee40e6eff9b8_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/jdungeon/core/world/\hyperlink{_entity_8java}{Entity.java}\end{DoxyCompactItemize}

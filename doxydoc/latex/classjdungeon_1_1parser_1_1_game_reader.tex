@@ -1,0 +1,182 @@
+\hypertarget{classjdungeon_1_1parser_1_1_game_reader}{
+\section{jdungeon.parser.GameReader Class Reference}
+\label{classjdungeon_1_1parser_1_1_game_reader}\index{jdungeon::parser::GameReader@{jdungeon::parser::GameReader}}
+}
+
+
+Collaboration diagram for jdungeon.parser.GameReader:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=226pt]{classjdungeon_1_1parser_1_1_game_reader__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classjdungeon_1_1parser_1_1_game_reader_afa05cd68baf698bfc37dccc7156e7990}{newGameReader} (File gameFile)  throws FileNotFoundException 
+\item 
+static int\mbox{[}$\,$\mbox{]} \hyperlink{classjdungeon_1_1parser_1_1_game_reader_a8278eb6e4aa5796713b4a68efa54715e}{getGameData} (int dataSize, String pattern)  throws CorruptFileException 
+\item 
+static String \hyperlink{classjdungeon_1_1parser_1_1_game_reader_a807fc4acaf4d25f99be453a13ddc75f4}{getGameData} ()  throws CorruptFileException 
+\item 
+static void \hyperlink{classjdungeon_1_1parser_1_1_game_reader_a9e01057517fc3ecd76691a8594dd2b13}{close} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static BufferedReader \hyperlink{classjdungeon_1_1parser_1_1_game_reader_a71a3526a8a907cd4782a4aaa0b641d91}{game}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjdungeon_1_1parser_1_1_game_reader_a9e01057517fc3ecd76691a8594dd2b13}{
+\index{jdungeon::parser::GameReader@{jdungeon::parser::GameReader}!close@{close}}
+\index{close@{close}!jdungeon::parser::GameReader@{jdungeon::parser::GameReader}}
+\subsubsection[{close}]{\setlength{\rightskip}{0pt plus 5cm}static void jdungeon.parser.GameReader.close (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classjdungeon_1_1parser_1_1_game_reader_a9e01057517fc3ecd76691a8594dd2b13}
+Closes the BufferedReader 
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1parser_1_1_game_reader_a9e01057517fc3ecd76691a8594dd2b13_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1parser_1_1_game_reader_a8278eb6e4aa5796713b4a68efa54715e}{
+\index{jdungeon::parser::GameReader@{jdungeon::parser::GameReader}!getGameData@{getGameData}}
+\index{getGameData@{getGameData}!jdungeon::parser::GameReader@{jdungeon::parser::GameReader}}
+\subsubsection[{getGameData}]{\setlength{\rightskip}{0pt plus 5cm}static int \mbox{[}$\,$\mbox{]} jdungeon.parser.GameReader.getGameData (
+\begin{DoxyParamCaption}
+\item[{int}]{dataSize, }
+\item[{String}]{pattern}
+\end{DoxyParamCaption}
+)  throws {\bf CorruptFileException} \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classjdungeon_1_1parser_1_1_game_reader_a8278eb6e4aa5796713b4a68efa54715e}
+Parses a valid line, splits it by \char`\"{}pattern\char`\"{} and checks that the amount of pieces \char`\"{}splited\char`\"{} equals dataSize. returns null if the BufferedReader is empty
+
+\begin{DoxyReturn}{Returns}
+int\mbox{[}\mbox{]} sized dataSize 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \hyperlink{classjdungeon_1_1parser_1_1_corrupt_file_exception}{CorruptFileException}} & if an error while parsing the numbers occurs, or if an IOException occurs \\
+\hline
+\end{DoxyExceptions}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1parser_1_1_game_reader_a8278eb6e4aa5796713b4a68efa54715e_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1parser_1_1_game_reader_a8278eb6e4aa5796713b4a68efa54715e_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1parser_1_1_game_reader_a807fc4acaf4d25f99be453a13ddc75f4}{
+\index{jdungeon::parser::GameReader@{jdungeon::parser::GameReader}!getGameData@{getGameData}}
+\index{getGameData@{getGameData}!jdungeon::parser::GameReader@{jdungeon::parser::GameReader}}
+\subsubsection[{getGameData}]{\setlength{\rightskip}{0pt plus 5cm}static String jdungeon.parser.GameReader.getGameData (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)  throws {\bf CorruptFileException} \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classjdungeon_1_1parser_1_1_game_reader_a807fc4acaf4d25f99be453a13ddc75f4}
+Parses the BufferedReader until it finds a valid line (non blank nor commented line), returning it as a String If the Reader ends before finding a valid line it closes the Reader and returns null.
+
+\begin{DoxyReturn}{Returns}
+String 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \hyperlink{classjdungeon_1_1parser_1_1_corrupt_file_exception}{CorruptFileException}} & if an IOError occurs \\
+\hline
+\end{DoxyExceptions}
+
+
+Here is the call graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1parser_1_1_game_reader_a807fc4acaf4d25f99be453a13ddc75f4_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1parser_1_1_game_reader_a807fc4acaf4d25f99be453a13ddc75f4_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjdungeon_1_1parser_1_1_game_reader_afa05cd68baf698bfc37dccc7156e7990}{
+\index{jdungeon::parser::GameReader@{jdungeon::parser::GameReader}!newGameReader@{newGameReader}}
+\index{newGameReader@{newGameReader}!jdungeon::parser::GameReader@{jdungeon::parser::GameReader}}
+\subsubsection[{newGameReader}]{\setlength{\rightskip}{0pt plus 5cm}static void jdungeon.parser.GameReader.newGameReader (
+\begin{DoxyParamCaption}
+\item[{File}]{gameFile}
+\end{DoxyParamCaption}
+)  throws FileNotFoundException \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classjdungeon_1_1parser_1_1_game_reader_afa05cd68baf698bfc37dccc7156e7990}
+Creates a BufferedReader with the input File and it stores it for further use
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em FileNotFoundException} & \\
+\hline
+\end{DoxyExceptions}
+
+
+Here is the caller graph for this function:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjdungeon_1_1parser_1_1_game_reader_afa05cd68baf698bfc37dccc7156e7990_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classjdungeon_1_1parser_1_1_game_reader_a71a3526a8a907cd4782a4aaa0b641d91}{
+\index{jdungeon::parser::GameReader@{jdungeon::parser::GameReader}!game@{game}}
+\index{game@{game}!jdungeon::parser::GameReader@{jdungeon::parser::GameReader}}
+\subsubsection[{game}]{\setlength{\rightskip}{0pt plus 5cm}BufferedReader {\bf jdungeon.parser.GameReader.game}\hspace{0.3cm}{\ttfamily  \mbox{[}static, package\mbox{]}}}}
+\label{classjdungeon_1_1parser_1_1_game_reader_a71a3526a8a907cd4782a4aaa0b641d91}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/jdungeon/parser/\hyperlink{_game_reader_8java}{GameReader.java}\end{DoxyCompactItemize}

@@ -1,0 +1,15 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$classjdungeon_1_1core_1_1world_1_1_entity.html" title="jdungeon.core.world.Entity" alt="" coords="5,139,181,168"/>
+<area shape="rect" id="node3" href="$classjdungeon_1_1core_1_1world_1_1bonus_1_1_bonus.html" title="jdungeon.core.world.bonus.Bonus" alt="" coords="232,59,451,88"/>
+<area shape="rect" id="node11" href="$classjdungeon_1_1core_1_1world_1_1scenery_1_1_splat.html" title="jdungeon.core.world.scenery.Splat" alt="" coords="231,112,452,141"/>
+<area shape="rect" id="node13" href="$classjdungeon_1_1core_1_1world_1_1scenery_1_1_wall.html" title="jdungeon.core.world.scenery.Wall" alt="" coords="232,165,451,195"/>
+<area shape="rect" id="node15" href="$classjdungeon_1_1core_1_1world_1_1_vulnerable.html" title="jdungeon.core.world.Vulnerable" alt="" coords="240,219,443,248"/>
+<area shape="rect" id="node5" href="$classjdungeon_1_1core_1_1world_1_1bonus_1_1_explorer_bonus.html" title="jdungeon.core.world.bonus.ExplorerBonus" alt="" coords="501,5,768,35"/>
+<area shape="rect" id="node7" href="$classjdungeon_1_1core_1_1world_1_1bonus_1_1_health_bonus.html" title="jdungeon.core.world.bonus.HealthBonus" alt="" coords="507,59,763,88"/>
+<area shape="rect" id="node9" href="$classjdungeon_1_1core_1_1world_1_1bonus_1_1_strength_bonus.html" title="jdungeon.core.world.bonus.StrengthBonus" alt="" coords="501,112,768,141"/>
+<area shape="rect" id="node17" href="$classjdungeon_1_1core_1_1world_1_1creatures_1_1_monster.html" title="jdungeon.core.world.creatures.Monster" alt="" coords="512,192,757,221"/>
+<area shape="rect" id="node25" href="$classjdungeon_1_1core_1_1world_1_1_player.html" title="jdungeon.core.world.Player" alt="" coords="545,245,724,275"/>
+<area shape="rect" id="node19" href="$classjdungeon_1_1core_1_1world_1_1creatures_1_1_dragon.html" title="jdungeon.core.world.creatures.Dragon" alt="" coords="816,139,1059,168"/>
+<area shape="rect" id="node21" href="$classjdungeon_1_1core_1_1world_1_1creatures_1_1_golem.html" title="jdungeon.core.world.creatures.Golem" alt="" coords="819,192,1056,221"/>
+<area shape="rect" id="node23" href="$classjdungeon_1_1core_1_1world_1_1creatures_1_1_snake.html" title="jdungeon.core.world.creatures.Snake" alt="" coords="819,245,1056,275"/>
+</map>

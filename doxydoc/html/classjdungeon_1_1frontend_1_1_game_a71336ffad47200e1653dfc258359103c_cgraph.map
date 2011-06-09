@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classjdungeon_1_1frontend_1_1_game.html#adc7387f710c783c36aec6bb796af2ce1" title="jdungeon.frontend.Game.endMap" alt="" coords="324,85,537,115"/>
+<area shape="rect" id="node11" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a9ef8adc1ff22ccd025db1380dce3c308" title="jdungeon.core.world.World.syncEvent" alt="" coords="309,192,552,221"/>
+<area shape="rect" id="node5" href="$classjdungeon_1_1frontend_1_1_map_drawer.html#a1f2d0d91cb4b24de96fe54059d949409" title="jdungeon.frontend.MapDrawer.GetGP" alt="" coords="656,5,896,35"/>
+<area shape="rect" id="node7" href="$classjdungeon_1_1frontend_1_1_data_panel.html#a5faa11da3dd56e5f7bda7332dbca27e8" title="jdungeon.frontend.DataPanel.getPanel" alt="" coords="653,59,899,88"/>
+<area shape="rect" id="node9" href="$classjdungeon_1_1frontend_1_1_menu.html#a60162c0b7ef84d0c069adff1f5462997" title="jdungeon.frontend.Menu.removeOptions" alt="" coords="649,112,903,141"/>
+<area shape="rect" id="node13" href="$classjdungeon_1_1core_1_1world_1_1_board.html#ad1cf12a52a7bf6f802e41fa82947d9c1" title="jdungeon.core.world.Board.filter" alt="" coords="673,165,879,195"/>
+<area shape="rect" id="node15" href="$classjdungeon_1_1core_1_1world_1_1filter_1_1_board_filter.html#a19d29f8693c5eb64c196b1eecb8b8de4" title="jdungeon.core.world.filter.BoardFilter.noPointsContaining" alt="" coords="601,219,951,248"/>
+<area shape="rect" id="node19" href="$classjdungeon_1_1core_1_1world_1_1_world.html#a0a866cdfd25ddff71c49d8fc0486a96b" title="jdungeon.core.world.World.notifyChange" alt="" coords="648,272,904,301"/>
+<area shape="rect" id="node17" href="$classjdungeon_1_1core_1_1world_1_1filter_1_1_board_filter.html#a67f4fa3c42470dc5d3c3130f9f6348dc" title="jdungeon.core.world.filter.BoardFilter.notIn" alt="" coords="1000,219,1267,248"/>
+<area shape="rect" id="node21" href="$classjdungeon_1_1core_1_1world_1_1_board.html#ada51771bcdc2668bcaf14ad7149f53d8" title="jdungeon.core.world.Board.in" alt="" coords="1039,272,1228,301"/>
+</map>

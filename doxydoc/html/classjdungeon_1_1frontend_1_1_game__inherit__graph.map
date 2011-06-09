@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" id="node4" href="$interfacejdungeon_1_1core_1_1world_1_1_map_observer.html" title="{jdungeon.core.world.MapObserver\n||+ onMapChange()\l+ onPlayerDeath()\l+ onBossDeath()\l}" alt="" coords="96,40,315,160"/>
+<area shape="rect" id="node6" href="$interfacejdungeon_1_1frontend_1_1_g_u_i.html" title="{jdungeon.frontend.GUI\n||+ NewGame()\l+ save()\l+ load()\l+ updatePoint()\l+ quit()\l+ end()\l+ restart()\l}" alt="" coords="339,5,491,195"/>
+</map>
