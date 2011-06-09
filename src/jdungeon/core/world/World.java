@@ -38,8 +38,14 @@ public final class World implements Serializable, Cloneable {
 	/** The observer for the player. */
 	private VulnerableObserver playerObserver;
 	
-	/** The observer for the boos. */
+	/** The observer for the boss. */
 	private VulnerableObserver bossObserver;
+
+	/** The map width. */
+	private int sizeX;
+	
+	/** The map height. */
+	private int sizeY;
 
 	/**
 	 * Instantiates a new world.
@@ -96,6 +102,25 @@ public final class World implements Serializable, Cloneable {
 		Collections.addAll(w.hurtEntities, filter.toArray(new Vulnerable[0]));
 
 		return w;
+	}
+	
+
+	/**
+	 * Gets the width.
+	 *
+	 * @return the x
+	 */
+	public int getX() {
+		return sizeX;
+	}
+
+	/**
+	 * Gets the height.
+	 *
+	 * @return the y
+	 */
+	public int getY() {
+		return sizeY;
 	}
 
 	/**
