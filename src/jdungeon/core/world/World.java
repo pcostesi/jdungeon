@@ -111,7 +111,7 @@ public final class World implements Serializable, Cloneable {
 	 * @return the x
 	 */
 	public int getX() {
-		return sizeX;
+		return board.getSizeX();
 	}
 
 	/**
@@ -120,7 +120,7 @@ public final class World implements Serializable, Cloneable {
 	 * @return the y
 	 */
 	public int getY() {
-		return sizeY;
+		return board.getSizeY();
 	}
 
 	/**
