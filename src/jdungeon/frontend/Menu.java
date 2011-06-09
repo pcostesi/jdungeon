@@ -14,17 +14,17 @@ import javax.swing.JMenuItem;
 public class Menu extends JFrame {
 
 	private static final long serialVersionUID = -653989361793094437L;
-	JMenuBar menu;
-	JMenu game;
-	JMenu select;
-	JMenu nGame;
-	JMenuItem lGame;
-	JMenuItem sGame;
-	JMenuItem exit;
-	JMenuItem restart;
-	JMenuItem endGame;
-	File file;
-	GUI event;
+	private JMenuBar menu;
+	private JMenu game;
+	private JMenu select;
+	private JMenu nGame;
+	private JMenuItem lGame;
+	private JMenuItem sGame;
+	private JMenuItem exit;
+	private JMenuItem restart;
+	private JMenuItem endGame;
+	private File file;
+	private GUI event;
 	
 	public JMenuBar NewGame(final GUI event, final Set<String> name) {
 		this.event = event;

@@ -20,7 +20,7 @@ public class MapDrawer{
 
 	private BasicImages basicImag;
 	private GamePanel gp;
-	GUI event;
+	private GUI event;
 
 	public MapDrawer(BasicImages images, GUI event, int x, int y) {
 		this.basicImag = images;

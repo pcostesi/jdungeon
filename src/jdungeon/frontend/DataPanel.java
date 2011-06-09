@@ -25,10 +25,10 @@ public class DataPanel extends JPanel {
 	private JLabel enemylvl = null;
 	private JLabel enemyname = null;
 	private JLabel playername = null;
-	Point lastubication = null;
-	Point currentubication = null;
-	Vulnerable enemy;
-	World w;
+	private Point lastubication = null;
+	private Point currentubication = null;
+	private Vulnerable enemy;
+	private World w;
 
 	public DataPanel(World w) {
 		this.w = w;

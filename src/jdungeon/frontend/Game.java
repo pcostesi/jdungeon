@@ -1,6 +1,9 @@
 package jdungeon.frontend;
 
 import java.awt.BorderLayout;
+import java.awt.Dimension;
+import java.awt.Toolkit;
+import java.awt.Window;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.io.File;
@@ -22,12 +25,13 @@ import jdungeon.core.world.Point;
 public class Game extends JFrame implements MapObserver, GUI {
 
 	private static final long serialVersionUID = -193613824256272240L;
-	MapDrawer map = null;
-	DataPanel panel;
-	JPanel listener;
-	World w = null;
-	World clone = null;
-	Menu menuData;
+	private MapDrawer map = null;
+	private DataPanel panel;
+	private JPanel listener;
+	private World w = null;
+	private World clone = null;
+	private Menu menuData;
+	private Dimension dim;
 	private BasicImages basicImag;
 
 	public Game() {
@@ -52,6 +56,7 @@ public class Game extends JFrame implements MapObserver, GUI {
 	}
 
 	public void endMap() {
+		setSize(500,500);
 		remove(map.GetGP());
 		remove(panel.getPanel());
 		repaint();
@@ -155,11 +160,14 @@ public class Game extends JFrame implements MapObserver, GUI {
 	}
 
 	public void start() {
+		dim = Toolkit.getDefaultToolkit().getScreenSize();
 		Menu menuData = new Menu();
 		this.menuData = menuData;
 		setTitle("jDungeon");
 		setLayout(new BorderLayout());
 		setSize(500, 500);
+		setLocationRelativeTo(getRootPane()); 
+		setResizable(false);
 		Set<String> names = null;
 		try {
 			names = WorldAssembler.getWorldList();
@@ -183,7 +191,10 @@ public class Game extends JFrame implements MapObserver, GUI {
 		panel = new DataPanel(w);
 		add(panel.getPanel(), BorderLayout.EAST);
 		panel.event();
+		System.out.println(w.getX());
+		setSize(w.getX()*30+120, w.getY()*30+45);
 		w.syncEvent();
+		setLocationRelativeTo(getRootPane()); 
 	}
 
 	private void startListener() {
